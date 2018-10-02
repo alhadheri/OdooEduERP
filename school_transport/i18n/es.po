@@ -1,0 +1,955 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* school_transport
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 12:50+0000\n"
+"PO-Revision-Date: 2018-10-02 12:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_trans_point_ids
+msgid " Points"
+msgstr " Points"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_vehi_participants_ids
+msgid " vehicle Participants"
+msgstr " vehicle Participants"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_trans_vehicle_ids
+msgid " vehicles"
+msgstr " vehicles"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>1. Participated vehicle information.</b>"
+msgstr "<b>1. Participated vehicle information.</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>1. Vehicle participant detail.</b>"
+msgstr "<b>1. Vehicle participant detail.</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>2. Root Point with monthly amount.</b>"
+msgstr "<b>2. Root Point with monthly amount.</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>3. Participated Student information.</b>"
+msgstr "<b>3. Participated Student information.</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>Amount</b>"
+msgstr "<b>Amount</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Capacity</b>"
+msgstr "<b>Capacity</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>Contact person</b>"
+msgstr "<b>Contact person</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>Division</b>"
+msgstr "<b>Division</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Driver Name</b>"
+msgstr "<b>Driver Name</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>End Date</b>"
+msgstr "<b>End Date</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Name</b>"
+msgstr "<b>Name</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>Point Name</b>"
+msgstr "<b>Point Name</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Point</b>"
+msgstr "<b>Point</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Registration End date</b>"
+msgstr "<b>Registration End date</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Registration date</b>"
+msgstr "<b>Registration date</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>Root Name</b>"
+msgstr "<b>Root Name</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Standard</b>"
+msgstr "<b>Standard</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>Start date</b>"
+msgstr "<b>Start date</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Total Participants</b>"
+msgstr "<b>Total Participants</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.participants
+msgid "<b>Vehicle No</b>"
+msgstr "<b>Vehicle No</b>"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "<b>Vehicle no</b>"
+msgstr "<b>Vehicle no</b>"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_amount
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_amount
+#: model:ir.ui.view,arch_db:school_transport.view_transport_point_search
+msgid "Amount"
+msgstr "Importe"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_transport_registration_paid_amount
+msgid "Amount Paid"
+msgstr "Amount Paid"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_transport_registration_remain_amt
+msgid "Amount Remaining"
+msgstr "Amount Remaining"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_point_search
+msgid "By Ammount"
+msgstr "By Ammount"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+msgid "By Contact Person"
+msgstr "By Contact Person"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_search
+msgid "By Driver Name"
+msgstr "By Driver Name"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+msgid "By Root Name"
+msgstr "By Root Name"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+msgid "By State"
+msgstr "By State"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+#: selection:transport.registration,state:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_capacity
+msgid "Capacity"
+msgstr "Capacity"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_hr_employee_is_driver
+msgid "Check if employee is driver"
+msgstr "Check if employee is driver"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transfer_vehicle_1
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+#: selection:student.transport,state:0
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_regis_search
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+#: selection:transport.registration,state:0
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_contact_per_id
+#: model:ir.model.fields,help:school_transport.field_student_transport_contact_per_id
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+msgid "Contact Person"
+msgstr "Contact Person"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_create_uid
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_create_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_create_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_create_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_create_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_create_date
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_create_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_create_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_create_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_create_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_display_name
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_display_name
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_display_name
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_display_name
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_display_name
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: school_transport
+#: selection:student.transport,state:0
+#: selection:transport.registration,state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: school_transport
+#: model:hr.job,name:school_transport.job_driver
+#: model:ir.ui.view,arch_db:school_transport.view_bus_driver_search
+msgid "Driver"
+msgstr "Driver"
+
+#. module: school_transport
+#: model:ir.actions.act_window,name:school_transport.action_bus_driver_form_1
+#: model:ir.model,name:school_transport.model_hr_employee
+#: model:ir.ui.menu,name:school_transport.menu_driver_info
+msgid "Driver Information"
+msgstr "Driver Information"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_driver_id
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_search
+msgid "Driver Name"
+msgstr "Driver Name"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_remain_amt
+msgid "Due Amount"
+msgstr "Saldo"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_end_date
+msgid "End Date"
+msgstr "Fecha de Finalización"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "End Date Of Journey"
+msgstr "End Date Of Journey"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_transport_participant_tr_end_date
+msgid "End date of registration"
+msgstr "End date of registration"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+msgid "Enter Participant Name"
+msgstr "Enter Participant Name"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+msgid "Enter Transport Root Name"
+msgstr "Enter Transport Root Name"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:222
+#, python-format
+msgid "Enter duration of month!"
+msgstr "Enter duration of month!"
+
+#. module: school_transport
+#: code:addons/school_transport/wizard/transfer_vehicle.py:50
+#: code:addons/school_transport/wizard/transfer_vehicle.py:56
+#, python-format
+msgid "Error !"
+msgstr "Error !"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:397
+#, python-format
+msgid "Error!Registration months must be 1or more then one month!"
+msgstr "Error!Registration months must be 1or more then one month!"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+msgid "Events in current month"
+msgstr "Events in current month"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_search
+msgid "Filter"
+msgstr "Filter"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_regis_search
+msgid "Filter..."
+msgstr "Filter..."
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_amount
+msgid "Final Amount"
+msgstr "Final Amount"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:414
+#, python-format
+msgid "For this much Months                                  Registration is not Possible because                                  Root end date is Early!"
+msgstr "For this much Months                                  Registration is not Possible because                                  Root end date is Early!"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_point_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_id
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_id
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_id
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_id
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_id
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_hr_employee_is_driver
+msgid "IS driver"
+msgstr "IS driver"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_account_invoice
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_count_inv
+msgid "Invoice Count"
+msgstr "Invoice Count"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_bus_driver_form
+msgid "Is Driver"
+msgstr "Is Driver"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport___last_update
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle___last_update
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant___last_update
+#: model:ir.model.fields,field_description:school_transport.field_transport_point___last_update
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration___last_update
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_write_uid
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_write_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_write_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_write_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_write_uid
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_write_date
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_write_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_write_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_write_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_write_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_hr_employee_licence_no
+msgid "License No"
+msgstr "License No"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_m_amount
+msgid "Monthly Amount"
+msgstr "Monthly Amount"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+msgid "Name"
+msgstr "Nombre"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_transport_participant_point_id
+msgid "Name of point"
+msgstr "Name of point"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_new_vehicle_id
+msgid "New Vehicle No"
+msgstr "New Vehicle No"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_old_vehicle_id
+msgid "Old Vehicle No"
+msgstr "Old Vehicle No"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+#: selection:student.transport,state:0
+msgid "Open"
+msgstr "Abierto"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participation_form
+#: selection:transport.participant,state:0
+msgid "Over"
+msgstr "Over"
+
+#. module: school_transport
+#: selection:transport.registration,state:0
+msgid "Paid"
+msgstr "Paid"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_paid_amount
+msgid "Paid Amount"
+msgstr "Paid Amount"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_form
+msgid "Participant"
+msgstr "Participant"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_name
+msgid "Participant Name"
+msgstr "Participant Name"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_trans_participants_ids
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Participants"
+msgstr "Participants"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Participants Details"
+msgstr "Participants Details"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_participation_id
+msgid "Participation"
+msgstr "Participation"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:327
+#, python-format
+msgid "Pay Transport Fees"
+msgstr "Pay Transport Fees"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+msgid "Payment"
+msgstr "Pagos"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: school_transport
+#: selection:transport.registration,state:0
+msgid "Pending"
+msgstr "Pending"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participation_form
+msgid "Personal Detail"
+msgstr "Personal Detail"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_stu_pid_id
+msgid "Personal Identification Number"
+msgstr "Personal Identification Number"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_point_id
+msgid "Point"
+msgstr "Point"
+
+#. module: school_transport
+#: model:ir.actions.act_window,name:school_transport.action_transport_point
+#: model:ir.ui.menu,name:school_transport.menu_point_info
+msgid "Point Information"
+msgstr "Point Information"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_point_id
+#: model:ir.model.fields,field_description:school_transport.field_transport_point_name
+#: model:ir.ui.view,arch_db:school_transport.transport_point_form1
+msgid "Point Name"
+msgstr "Point Name"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_reg_date
+msgid "Registration Date"
+msgstr "Registration Date"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_tr_end_date
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_reg_end_date
+msgid "Registration End Date"
+msgstr "Registration End Date"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_months
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_for_month
+msgid "Registration For Months"
+msgstr "Registration For Months"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_root_id
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+msgid "Root"
+msgstr "Root"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+msgid "Root Name"
+msgstr "Root Name"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+msgid "Root Point"
+msgstr "Root Point"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Root Points"
+msgstr "Root Points"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+#: selection:transport.participant,state:0
+msgid "Running"
+msgstr "Running"
+
+#. module: school_transport
+#: model:ir.module.category,name:school_transport.module_category_school_transortation
+msgid "School Transportation"
+msgstr "School Transportation"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_point_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_search
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: school_transport
+#: code:addons/school_transport/wizard/transfer_vehicle.py:51
+#, python-format
+msgid "Sorry you can not transfer in                                   same vehicle."
+msgstr "Sorry you can not transfer in                                   same vehicle."
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_start_date
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Start Date Of Journey"
+msgstr "Start Date Of Journey"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_transport_registration_reg_date
+#: model:ir.model.fields,help:school_transport.field_transport_registration_reg_end_date
+msgid "Start Date of registration"
+msgstr "Start Date of registration"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_transport_participant_tr_reg_date
+msgid "Start date of registration"
+msgstr "Start date of registration"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:219
+#, python-format
+msgid "Start date should be less than end\n"
+"                date!"
+msgstr "Start date should be less than end\n"
+"                date!"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_state
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_state
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_state
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participant_search
+msgid "State"
+msgstr "Estado"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_student_student
+msgid "Student Information"
+msgstr "Student Information"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transfer_vehicle_name
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_part_name
+#: model:ir.model.fields,help:school_transport.field_transport_registration_part_name
+msgid "Student Name"
+msgstr "Student Name"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_student_transport
+msgid "Student Transport Information"
+msgstr "Student Transport Information"
+
+#. module: school_transport
+#: model:ir.model.fields,help:school_transport.field_transport_vehicle_participant
+msgid "Students registered in root"
+msgstr "Students registered in root"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Subject Information"
+msgstr "Subject Information"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:31
+#, python-format
+msgid "The licence number you have entered\n"
+"            already exist. Please enter different licence number!"
+msgstr "The licence number you have entered\n"
+"            already exist. Please enter different licence number!"
+
+#. module: school_transport
+#: code:addons/school_transport/wizard/transfer_vehicle.py:57
+#, python-format
+msgid "There is No More vacancy on this                                   vehicle."
+msgstr "There is No More vacancy on this                                   vehicle."
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:402
+#, python-format
+msgid "There is No More vacancy on this vehicle."
+msgstr "There is No More vacancy on this vehicle."
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_search
+msgid "This Month"
+msgstr "Este Mes"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_total_participantes
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_participant
+msgid "Total Participants"
+msgstr "Total Participants"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transfer_vehicle_1
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: school_transport
+#: model:ir.actions.act_window,name:school_transport.act_transfer_vehicle
+#: model:ir.ui.view,arch_db:school_transport.transfer_vehicle_1
+msgid "Transfer Vehicle"
+msgstr "Transfer Vehicle"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_student_transport_ids
+#: model:ir.ui.menu,name:school_transport.menu_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_student_form2
+msgid "Transport"
+msgstr "Transport"
+
+#. module: school_transport
+#: model:ir.ui.menu,name:school_transport.menu_tansport_info
+msgid "Transport Details"
+msgstr "Transport Details"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+msgid "Transport Duration"
+msgstr "Transport Duration"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_transport_fees
+msgid "Transport Fees"
+msgstr "Transport Fees"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_terminate_reason_transport_info
+msgid "Transport Info"
+msgstr "Transport Info"
+
+#. module: school_transport
+#: model:ir.actions.act_window,name:school_transport.action_student_transport_form
+#: model:ir.ui.menu,name:school_transport.menu_transport_sub_form
+#: model:ir.ui.view,arch_db:school_transport.participants
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_tree
+msgid "Transport Information"
+msgstr "Transport Information"
+
+#. module: school_transport
+#: model:res.groups,name:school_transport.group_transportation_manager
+msgid "Transport Manager"
+msgstr "Transport Manager"
+
+#. module: school_transport
+#: model:ir.actions.act_window,name:school_transport.action_school_transport_participant_form
+#: model:ir.ui.menu,name:school_transport.menu_transport_sub_participant
+msgid "Transport Participant"
+msgstr "Transport Participant"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_transport_participant
+msgid "Transport Participant Information"
+msgstr "Transport Participant Information"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participation_form
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participation_tree_1
+msgid "Transport Participants Information"
+msgstr "Transport Participants Information"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_point_form1
+msgid "Transport Point"
+msgstr "Transport Point"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Transport Point Details"
+msgstr "Transport Point Details"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_transport_point
+#: model:ir.ui.view,arch_db:school_transport.view_transport_point_tree_1
+msgid "Transport Point Information"
+msgstr "Transport Point Information"
+
+#. module: school_transport
+#: model:ir.actions.act_window,name:school_transport.action_student_transport_registration_form
+#: model:ir.model,name:school_transport.model_transport_registration
+#: model:ir.ui.menu,name:school_transport.menu_transport_registration_sub_form
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_form1
+#: model:ir.ui.view,arch_db:school_transport.transport_registration_tree
+msgid "Transport Registration"
+msgstr "Transport Registration"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.transport_regis_search
+msgid "Transport Registration Search"
+msgstr "Transport Registration Search"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_transport_id
+msgid "Transport Root"
+msgstr "Transport Root"
+
+#. module: school_transport
+#: model:ir.actions.report,name:school_transport.report_student_transport_qweb
+msgid "Transport Root Detail"
+msgstr "Transport Root Detail"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_student_transport_name
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_name
+msgid "Transport Root Name"
+msgstr "Transport Root Name"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_account_invoice_transport_student_id
+msgid "Transport Student"
+msgstr "Transport Student"
+
+#. module: school_transport
+#: model:res.groups,name:school_transport.group_transportation_user
+msgid "Transport User"
+msgstr "Transport User"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Transport Vehicle Details"
+msgstr "Transport Vehicle Details"
+
+#. module: school_transport
+#: model:ir.actions.act_window,name:school_transport.action_transport_vehicle
+msgid "Transport Vehicle Information"
+msgstr "Transport Vehicle Information"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_transport_vehicle
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_form
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_tree
+msgid "Transport vehicle Information"
+msgstr "Transport vehicle Information"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_participation_form
+msgid "Transportation Detail"
+msgstr "Transportation Detail"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_student_student_form2
+msgid "Transportation Details"
+msgstr "Transportation Details"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_tr_reg_date
+msgid "Transportation Registration Date"
+msgstr "Transportation Registration Date"
+
+#. module: school_transport
+#: model:ir.actions.report,name:school_transport.report_transport_vehicle_qweb
+msgid "Vehicle Detail"
+msgstr "Vehicle Detail"
+
+#. module: school_transport
+#: model:ir.ui.menu,name:school_transport.menu_vehicle_info
+#: model:ir.ui.view,arch_db:school_transport.vehicle
+msgid "Vehicle Information"
+msgstr "Vehicle Information"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_participant_vehicle_id
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_vehicle_id
+#: model:ir.model.fields,field_description:school_transport.field_transport_vehicle_vehicle
+msgid "Vehicle No"
+msgstr "Vehicle No"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_transport_vehicle_form
+msgid "Vehicle Participant Details"
+msgstr "Vehicle Participant Details"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_hr_employee_transport_vehicle
+#: model:ir.ui.view,arch_db:school_transport.view_student_transport_form
+msgid "Vehicles"
+msgstr "Vehicles"
+
+#. module: school_transport
+#: model:ir.ui.view,arch_db:school_transport.view_bus_driver_form
+msgid "Vehicles Details"
+msgstr "Vehicles Details"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:304
+#, python-format
+msgid "You can delete record in\n"
+"                unconfirm state and cancel state only!"
+msgstr "You can delete record in\n"
+"                unconfirm state and cancel state only!"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:228
+#, python-format
+msgid "You can delete record in draft state\n"
+"                                        or cancel state only!"
+msgstr "You can delete record in draft state\n"
+"                                        or cancel state only!"
+
+#. module: school_transport
+#: code:addons/school_transport/models/transport.py:146
+#, python-format
+msgid "You cannot delete record in running\n"
+"                state!."
+msgstr "You cannot delete record in running\n"
+"                state!."
+
+#. module: school_transport
+#: model:ir.actions.server,name:school_transport.ir_cron_student_transport_every_day_schedule_ir_actions_server
+#: model:ir.cron,cron_name:school_transport.ir_cron_student_transport_every_day_schedule
+#: model:ir.cron,name:school_transport.ir_cron_student_transport_every_day_schedule
+msgid "student_transport"
+msgstr "student_transport"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_terminate_reason
+msgid "terminate.reason"
+msgstr "terminate.reason"
+
+#. module: school_transport
+#: model:ir.model,name:school_transport.model_transfer_vehicle
+msgid "transfer vehicle"
+msgstr "transfer vehicle"
+
+#. module: school_transport
+#: model:ir.model.fields,field_description:school_transport.field_transport_registration_transport_user
+msgid "transport user"
+msgstr "transport user"
+

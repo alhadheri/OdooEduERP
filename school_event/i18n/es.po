@@ -1,0 +1,808 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* school_event
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 12:48+0000\n"
+"PO-Revision-Date: 2018-10-02 12:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: school_event
+#: model:ir.actions.act_window,name:school_event.action_event_parameter
+msgid " Event Parameter"
+msgstr " Event Parameter"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>1. Participated Standards information.</b>"
+msgstr "<b>1. Participated Standards information.</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>2. Participated Students information.</b>"
+msgstr "<b>2. Participated Students information.</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Class Teacher</b>"
+msgstr "<b>Class Teacher</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Contact person</b>"
+msgstr "<b>Contact person</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Division</b>"
+msgstr "<b>Division</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>End Date</b>"
+msgstr "<b>End Date</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Event Name</b>"
+msgstr "<b>Event Name</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Maximum Participants</b>"
+msgstr "<b>Maximum Participants</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Medium</b>"
+msgstr "<b>Medium</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Name</b>"
+msgstr "<b>Name</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Parameter</b>"
+msgstr "<b>Parameter</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Rank</b>"
+msgstr "<b>Rank</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Score</b>"
+msgstr "<b>Score</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Standard</b>"
+msgstr "<b>Standard</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Start date</b>"
+msgstr "<b>Start date</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "<b>Supervisor</b>"
+msgstr "<b>Supervisor</b>"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participant_event_search_view
+msgid "By Event Name"
+msgstr "By Event Name"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "By Event name"
+msgstr "By Event name"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participant_event_search_view
+msgid "By Name"
+msgstr "By Name"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "By Participater"
+msgstr "By Participater"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "By Start Date"
+msgstr "By Start Date"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.event_registration_form
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+#: selection:school.event.registration,state:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.student_event_kanban_view
+msgid "Change Color"
+msgstr "Change Color"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_registration_is_holiday
+msgid "Checked if the event is                                                    organized on holiday."
+msgstr "Checked if the event is                                                    organized on holiday."
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_is_holiday
+msgid "Checked if the event is organized                                      on holiday."
+msgstr "Checked if the event is organized                                      on holiday."
+
+#. module: school_event
+#: model:ir.actions.act_window,help:school_event.action_school_event_form_1
+msgid "Click to add a new Event."
+msgstr "Click to add a new Event."
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+#: selection:school.event,state:0
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.event_registration_form
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+#: selection:school.event.registration,state:0
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.student_event_kanban_view
+msgid "Contact Faculty :"
+msgstr "Contact Faculty :"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_contact_per_id
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Contact Person"
+msgstr "Contact Person"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_create_uid
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_create_uid
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_create_uid
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_create_date
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_create_date
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_create_date
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.student_event_kanban_view
+msgid "Delete"
+msgstr "Suprimir"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_display_name
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_display_name
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_display_name
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+#: selection:school.event,state:0
+#: selection:school.event.registration,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.student_event_kanban_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.student_event_kanban_view
+msgid "Edit..."
+msgstr "Edit..."
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_end_date
+msgid "End Date"
+msgstr "Fecha de Finalización"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "End Date Of Event"
+msgstr "End Date Of Event"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Enter Event Name"
+msgstr "Enter Event Name"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Enter Last Date Of Registration"
+msgstr "Enter Last Date Of Registration"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Enter Start Date Of Registration"
+msgstr "Enter Start Date Of Registration"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:146
+#, python-format
+msgid "Enter participants to open the event!"
+msgstr "Enter participants to open the event!"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:271
+#, python-format
+msgid "Error ! Last Registration date is over\n"
+"                                   for this Event!"
+msgstr "Error ! Last Registration date is over\n"
+"                                   for this Event!"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:268
+#, python-format
+msgid "Error ! Registration is not started\n"
+"                                   for this Event!"
+msgstr "Error ! Registration is not started\n"
+"                                   for this Event!"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_event_id
+#: model:ir.ui.menu,name:school_event.menu_event_parameter
+#: model:ir.ui.view,arch_db:school_event.participant_event_search_view
+msgid "Event"
+msgstr "Event"
+
+#. module: school_event
+#: model:ir.actions.report,name:school_event.report_school_event_qweb
+msgid "Event Detail"
+msgstr "Event Detail"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_end_date
+msgid "Event Ending Date"
+msgstr "Event Ending Date"
+
+#. module: school_event
+#: model:ir.actions.act_window,name:school_event.action_school_event_form_1
+#: model:ir.model,name:school_event.model_school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+#: model:ir.ui.view,arch_db:school_event.school_event_tree_view
+msgid "Event Information"
+msgstr "Event Information"
+
+#. module: school_event
+#: model:ir.ui.menu,name:school_event.menu_event_sub_form_1
+msgid "Event Informations"
+msgstr "Event Informations"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_name
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_name
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "Event Name"
+msgstr "Event Name"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_code
+msgid "Event Organized School"
+msgstr "Event Organized School"
+
+#. module: school_event
+#: model:ir.model,name:school_event.model_school_event_parameter
+#: model:ir.ui.menu,name:school_event.menu_event_sub_parameter
+#: model:ir.ui.view,arch_db:school_event.parameter_event_form_view
+#: model:ir.ui.view,arch_db:school_event.parameter_event_search_view
+#: model:ir.ui.view,arch_db:school_event.parameter_event_tree_view
+msgid "Event Parameter"
+msgstr "Event Parameter"
+
+#. module: school_event
+#: model:ir.actions.act_window,name:school_event.action_school_event_Participant_tree
+#: model:ir.ui.view,arch_db:school_event.participant_event_form_view
+msgid "Event Participant"
+msgstr "Event Participant"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participant_event_form_view
+#: model:ir.ui.view,arch_db:school_event.participant_event_tree_view
+msgid "Event Participant Information"
+msgstr "Event Participant Information"
+
+#. module: school_event
+#: model:ir.ui.menu,name:school_event.menu_event_Participation
+msgid "Event Participation"
+msgstr "Event Participation"
+
+#. module: school_event
+#: model:ir.actions.act_window,name:school_event.action_school_event_registration_form
+#: model:ir.model,name:school_event.model_school_event_registration
+#: model:ir.ui.menu,name:school_event.menu_event_registration_form
+#: model:ir.ui.view,arch_db:school_event.event_registration_form
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_tree_view
+msgid "Event Registration"
+msgstr "Event Registration"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:134
+#, python-format
+msgid "Event Registration StartDate must be                                  lower than Event Registration end-date.!"
+msgstr "Event Registration StartDate must be                                  lower than Event Registration end-date.!"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "Event Registration in today"
+msgstr "Event Registration in today"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:137
+#, python-format
+msgid "Event Registration last-date must be                                    lower than Event start-date!."
+msgstr "Event Registration last-date must be                                    lower than Event start-date!."
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Event Search"
+msgstr "Event Search"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_start_date
+msgid "Event Starting Date"
+msgstr "Event Starting Date"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_supervisor_id
+msgid "Event Supervisor Name"
+msgstr "Event Supervisor Name"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_event_type
+msgid "Event Type"
+msgstr "Event Type"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_contact_per_id
+msgid "Event contact person"
+msgstr "Event contact person"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participants
+msgid "Event information"
+msgstr "Event information"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_event_type
+msgid "Event is either IntraSchool                                        or InterSchool"
+msgstr "Event is either IntraSchool                                        or InterSchool"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_start_reg_date
+msgid "Event registration starting date"
+msgstr "Event registration starting date"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:123
+#, python-format
+msgid "Event start-date must be lower                              then Event end-date!"
+msgstr "Event start-date must be lower                              then Event end-date!"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_standard_event_ids
+#: model:ir.ui.menu,name:school_event.menu_event_form_1
+#: model:ir.ui.view,arch_db:school_event.school_event_calander_view
+#: model:ir.ui.view,arch_db:school_event.school_standard_form_view
+#: model:ir.ui.view,arch_db:school_event.student_standard_form_view
+msgid "Events"
+msgstr "Events"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Events in current month"
+msgstr "Events in current month"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Filter"
+msgstr "Filter"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_name
+msgid "Full Name of the event"
+msgstr "Full Name of the event"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participant_event_search_view
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_id
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_id
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_id
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: school_event
+#: selection:school.event,event_type:0
+msgid "InterSchool"
+msgstr "InterSchool"
+
+#. module: school_event
+#: selection:school.event,event_type:0
+msgid "IntraSchool"
+msgstr "IntraSchool"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_is_holiday
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_is_holiday
+msgid "Is Holiday(s)"
+msgstr "Is Holiday(s)"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_last_reg_date
+msgid "Last Date of registration"
+msgstr "Last Date of registration"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event___last_update
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter___last_update
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant___last_update
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_last_reg_date
+msgid "Last Registration Date"
+msgstr "Last Registration Date"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_write_uid
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_write_uid
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_write_uid
+#: model:ir.model.fields,field_description:school_event.field_school_event_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_write_date
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_write_date
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_write_date
+#: model:ir.model.fields,field_description:school_event.field_school_event_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_maximum_participants
+msgid "Maximum Participant                                                of the Event"
+msgstr "Maximum Participant                                                of the Event"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_maximum_participants
+msgid "Maximum Participants"
+msgstr "Maximum Participants"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participant_event_search_view
+msgid "Name"
+msgstr "Nombre"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.student_event_kanban_view
+msgid "Name :"
+msgstr "Name :"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_participant_name
+msgid "Name of Student"
+msgstr "Name of Student"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_participant_event_id
+#: model:ir.model.fields,help:school_event.field_school_event_registration_name
+msgid "Name of event"
+msgstr "Name of event"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Open"
+msgstr "Abierto"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Organiser school"
+msgstr "Organiser school"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_code
+msgid "Organizer School"
+msgstr "Organizer School"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_id_6998
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_win_parameter_id
+msgid "Parameter"
+msgstr "Parameter"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_parameter_name
+msgid "Parameter Name"
+msgstr "Parameter Name"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_parameter_id_6998
+msgid "Parameters of the Event                                         like (Goal, Point)"
+msgstr "Parameters of the Event                                         like (Goal, Point)"
+
+#. module: school_event
+#: model:ir.model,name:school_event.model_school_event_participant
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Participant Information"
+msgstr "Participant Information"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_name
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_part_name_id
+msgid "Participant Name"
+msgstr "Participant Name"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_part_standard_ids
+msgid "Participant Standards"
+msgstr "Participant Standards"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_part_ids
+#: model:ir.model.fields,field_description:school_event.field_school_event_participants
+#: model:ir.model.fields,field_description:school_event.field_student_student_event_ids
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Participants"
+msgstr "Participants"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Participated Classes"
+msgstr "Participated Classes"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "Participater"
+msgstr "Participater"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:264
+#, python-format
+msgid "Participation in this Event is Full!"
+msgstr "Participation in this Event is Full!"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_stu_pid
+msgid "Personal Identification Number"
+msgstr "Personal Identification Number"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_rank
+msgid "Rank"
+msgstr "Rank"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:50
+#, python-format
+msgid "Rank should be greater than 0!"
+msgstr "Rank should be greater than 0!"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_reg_date
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "Registration Date"
+msgstr "Registration Date"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_registration_reg_date
+msgid "Registration date of event"
+msgstr "Registration date of event"
+
+#. module: school_event
+#: selection:school.event,state:0
+msgid "Running"
+msgstr "Running"
+
+#. module: school_event
+#: model:ir.model,name:school_event.model_school_standard
+msgid "School Standards"
+msgstr "School Standards"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_participant_score
+msgid "Score"
+msgstr "Score"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_participant_score
+msgid "Score obtained by student"
+msgstr "Score obtained by student"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.participant_event_search_view
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "Search Registrations"
+msgstr "Search Registrations"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.event_registration_form
+msgid "Select Event Name"
+msgstr "Select Event Name"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Select Organiser Name"
+msgstr "Select Organiser Name"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_registration_part_name_id
+msgid "Select Participant"
+msgstr "Select Participant"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.event_registration_form
+msgid "Select Participant Name"
+msgstr "Select Participant Name"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Select School"
+msgstr "Select School"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Select Supervisor Name"
+msgstr "Select Supervisor Name"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_start_date
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.student_event_kanban_view
+msgid "Start Date :"
+msgstr "Fecha de Inicio:"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_form_view
+msgid "Start Date Of Event"
+msgstr "Start Date Of Event"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_start_reg_date
+msgid "Start Registration Date"
+msgstr "Start Registration Date"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_state
+#: model:ir.model.fields,field_description:school_event.field_school_event_state
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "State"
+msgstr "Estado"
+
+#. module: school_event
+#: model:ir.model,name:school_event.model_student_student
+msgid "Student Information"
+msgstr "Student Information"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_registration_student_standard_id
+msgid "Student Std"
+msgstr "Student Std"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:251
+#, python-format
+msgid "Student is already\n"
+"                                    registered in this event!"
+msgstr "Student is already\n"
+"                                    registered in this event!"
+
+#. module: school_event
+#: model:ir.model.fields,field_description:school_event.field_school_event_supervisor_id
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "Supervisor"
+msgstr "Supervisor"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_part_standard_ids
+msgid "The Participant is from                                               which standard"
+msgstr "The Participant is from                                               which standard"
+
+#. module: school_event
+#: model:ir.model.fields,help:school_event.field_school_event_participant_rank
+msgid "The sequence field is used to Give                               Rank to the Participant"
+msgstr "The sequence field is used to Give                               Rank to the Participant"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_search_view
+msgid "This Month"
+msgstr "Este Mes"
+
+#. module: school_event
+#: model:ir.actions.act_window,help:school_event.action_school_event_form_1
+msgid "This structure is used to create and manage all Events"
+msgstr "This structure is used to create and manage all Events"
+
+#. module: school_event
+#: model:ir.ui.view,arch_db:school_event.school_event_registration_search_view
+msgid "Today"
+msgstr "Hoy"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:114
+#, python-format
+msgid "You can delete record in unconfirm\n"
+"                state only or close state only !"
+msgstr "You can delete record in unconfirm\n"
+"                state only or close state only !"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:240
+#, python-format
+msgid "You can delete record in unconfirm state\n"
+"                only!"
+msgstr "You can delete record in unconfirm state\n"
+"                only!"
+
+#. module: school_event
+#: code:addons/school_event/models/event.py:232
+#, python-format
+msgid "You cannot do registration in\n"
+"                                        event which is in running or closed!\n"
+"                                        "
+msgstr "You cannot do registration in\n"
+"                                        event which is in running or closed!\n"
+"                                        "
+
+#. module: school_event
+#: model:ir.model,name:school_event.model_terminate_reason
+msgid "terminate.reason"
+msgstr "terminate.reason"
+

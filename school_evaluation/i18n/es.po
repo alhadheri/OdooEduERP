@@ -1,0 +1,471 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* school_evaluation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 12:48+0000\n"
+"PO-Revision-Date: 2018-10-02 12:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_student_student_supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr "# Facturas de proveedores"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_student_student_purchase_order_count
+msgid "# of Purchase Order"
+msgstr "Nº de Pedido de compra"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+#: selection:school.evaluation,state:0
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_create_uid
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_create_uid
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_create_uid
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_create_date
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_create_date
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_create_date
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_desc
+msgid "Description"
+msgstr "Descripción"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_display_name
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_display_name
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_display_name
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: school_evaluation
+#: selection:school.evaluation,state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_template_form
+msgid "Enter Description"
+msgstr "Enter Description"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_rating_form
+msgid "Enter Rating Point"
+msgstr "Enter Rating Point"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_rating_form
+msgid "Enter Remarks"
+msgstr "Enter Remarks"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_student_form2
+msgid "Evaluation"
+msgstr "Evaluation"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_date
+#: model:ir.model.fields,help:school_evaluation.field_school_evaluation_date
+msgid "Evaluation Date"
+msgstr "Evaluation Date"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+msgid "Evaluation Line"
+msgstr "Evaluation Line"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_template_form
+msgid "Evaluation Template"
+msgstr "Evaluation Template"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_student_eval_temp
+#: model:ir.ui.menu,name:school_evaluation.menu_eval_temps
+msgid "Evaluation Templates"
+msgstr "Evaluation Templates"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_eval_id
+msgid "Evaluation id"
+msgstr "Evaluation id"
+
+#. module: school_evaluation
+#: model:ir.ui.menu,name:school_evaluation.menu_stu_eval
+msgid "Evaluations"
+msgstr "Evaluations"
+
+#. module: school_evaluation
+#: selection:school.evaluation,type:0
+#: selection:school.evaluation.template,type:0
+msgid "Faculty"
+msgstr "Faculty"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+#: selection:school.evaluation,state:0
+msgid "Finish"
+msgstr "Finish"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+msgid "General"
+msgstr "General"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+msgid "Get Question"
+msgstr "Get Question"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_temp_search
+#: model:ir.ui.view,arch_db:school_evaluation.view_teacher_eval_search
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_id
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_id
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_id
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating___last_update
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation___last_update
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line___last_update
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_write_uid
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_write_uid
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_write_uid
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_write_date
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_write_date
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_write_date
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_student_student_purchase_warn_msg
+msgid "Message for Purchase Order"
+msgstr "Mensaje para el pedido de compra"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_rating_rating_point
+msgid "Points"
+msgstr "Points"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_student_student_purchase_warn
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_stu_eval_id
+msgid "Question"
+msgstr "Question"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_eval_line
+msgid "Questionnaire"
+msgstr "Questionnaire"
+
+#. module: school_evaluation
+#: sql_constraint:school.evaluation.line:0
+msgid "Questions already exist!"
+msgstr "Questions already exist!"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_point_id
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_rating_line
+#: model:ir.ui.menu,name:school_evaluation.menu_rating
+msgid "Rating"
+msgstr "Rating"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_point
+msgid "Rating in points"
+msgstr "Rating in points"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_rating_rating_rating_id
+msgid "Ratings"
+msgstr "Ratings"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_rating
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_line_rating
+msgid "Remarks"
+msgstr "Remarks"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+msgid "Select Or Create Question"
+msgstr "Select Or Create Question"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+msgid "Select Or Create Rating"
+msgstr "Select Or Create Rating"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+msgid "Select Or Create Student Name"
+msgstr "Select Or Create Student Name"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+msgid "Select Or Create Teacher Name"
+msgstr "Select Or Create Teacher Name"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_school_evaluation_student_id
+msgid "Select Student"
+msgstr "Select Student"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_student_student_purchase_warn
+msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
+msgstr "Si selecciona la opción \"Aviso\" se notificará a los usuarios con el mensaje, si selecciona \"Mensaje de bloqueo\" se lanzará una excepción con el mensaje y se bloqueará el flujo. El mensaje debe escribirse en el siguiente campo."
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+msgid "Set to Draft"
+msgstr "Cambiar a borrador"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+#: selection:school.evaluation,state:0
+msgid "Start"
+msgstr "Start"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_state
+msgid "State"
+msgstr "Estado"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_rating_rating_rating_id
+msgid "Stud"
+msgstr "Stud"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_search
+#: selection:school.evaluation,type:0
+#: selection:school.evaluation.template,type:0
+msgid "Student"
+msgstr "Student"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_student_eval
+#: model:ir.actions.act_window,name:school_evaluation.action_student_eval_form
+#: model:ir.actions.act_window,name:school_evaluation.action_student_eval_form_actions
+#: model:ir.ui.menu,name:school_evaluation.menu_evals
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_evaluation_tree
+msgid "Student Evaluation"
+msgstr "Student Evaluation"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_student_eval_draft
+msgid "Student Evaluation Draft"
+msgstr "Student Evaluation Draft"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_student_eval_finished
+msgid "Student Evaluation Finished"
+msgstr "Student Evaluation Finished"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_search
+#: model:ir.ui.view,arch_db:school_evaluation.view_teacher_eval_search
+msgid "Student Evaluation Search"
+msgstr "Student Evaluation Search"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_template_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_template_tree
+msgid "Student Evaluation Template"
+msgstr "Student Evaluation Template"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_temp_search
+msgid "Student Evaluation Template Search"
+msgstr "Student Evaluation Template Search"
+
+#. module: school_evaluation
+#: model:ir.model,name:school_evaluation.model_student_student
+msgid "Student Information"
+msgstr "Student Information"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_student_id
+msgid "Student Name"
+msgstr "Student Name"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_student_rating
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_rating_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_rating_search
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_rating_tree
+msgid "Student Rating"
+msgstr "Student Rating"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_student_student_property_purchase_currency_id
+msgid "Supplier Currency"
+msgstr "Moneda de Proveedor"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_teacher_id
+#: model:ir.ui.view,arch_db:school_evaluation.view_teacher_eval_search
+msgid "Teacher"
+msgstr "Teacher"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_teacher_eval
+#: model:ir.ui.menu,name:school_evaluation.menu_teacher_eval
+#: model:ir.ui.view,arch_db:school_evaluation.teacher_evaluation_form
+#: model:ir.ui.view,arch_db:school_evaluation.view_teacher_evaluation_tree
+msgid "Teacher Evaluation"
+msgstr "Teacher Evaluation"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_teacher_eval_new
+msgid "Teacher Evaluation Finished"
+msgstr "Teacher Evaluation Finished"
+
+#. module: school_evaluation
+#: model:ir.actions.act_window,name:school_evaluation.action_teacher_eval_new_draft
+msgid "Teacher Evaluation New Draft"
+msgstr "Teacher Evaluation New Draft"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_student_student_property_purchase_currency_id
+msgid "This currency will be used, instead of the default one, for purchases from the current partner"
+msgstr "Se utilizará esta moneda, en lugar de la predeterminada, para las compras de la pareja actual"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_total
+msgid "Total Points"
+msgstr "Total Points"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_school_evaluation_total
+msgid "Total Points Obtained"
+msgstr "Total Points Obtained"
+
+#. module: school_evaluation
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_search
+#: model:ir.ui.view,arch_db:school_evaluation.view_student_eval_temp_search
+#: model:ir.ui.view,arch_db:school_evaluation.view_teacher_eval_search
+msgid "Type"
+msgstr "Tipo"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_school_evaluation_template_type
+msgid "Type of Evaluation"
+msgstr "Type of Evaluation"
+
+#. module: school_evaluation
+#: model:ir.model.fields,help:school_evaluation.field_school_evaluation_type
+msgid "Type of evaluation"
+msgstr "Type of evaluation"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_username
+msgid "User"
+msgstr "Usuario"
+
+#. module: school_evaluation
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_template_type
+#: model:ir.model.fields,field_description:school_evaluation.field_school_evaluation_type
+msgid "User Type"
+msgstr "User Type"
+
+#. module: school_evaluation
+#: code:addons/school_evaluation/models/school_evaluation.py:120
+#, python-format
+msgid "You can delete record in unconfirm\n"
+"                state only."
+msgstr "You can delete record in unconfirm\n"
+"                state only."
+
+#. module: school_evaluation
+#: model:ir.model,name:school_evaluation.model_rating_rating
+msgid "rating.rating"
+msgstr "rating.rating"
+
+#. module: school_evaluation
+#: model:ir.model,name:school_evaluation.model_school_evaluation
+msgid "school.evaluation"
+msgstr "school.evaluation"
+
+#. module: school_evaluation
+#: model:ir.model,name:school_evaluation.model_school_evaluation_line
+msgid "school.evaluation.line"
+msgstr "school.evaluation.line"
+
+#. module: school_evaluation
+#: model:ir.model,name:school_evaluation.model_school_evaluation_template
+msgid "school.evaluation.template"
+msgstr "school.evaluation.template"
+
+#. module: school_evaluation
+#: model:ir.model,name:school_evaluation.model_terminate_reason
+msgid "terminate.reason"
+msgstr "terminate.reason"
+
