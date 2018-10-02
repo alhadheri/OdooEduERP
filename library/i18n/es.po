@@ -1,0 +1,1723 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* library
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 12:46+0000\n"
+"PO-Revision-Date: 2018-10-02 12:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_request_active
+#: model:ir.model.fields,field_description:library.field_library_card_active
+#: model:ir.model.fields,field_description:library.field_library_rack_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Actual Qty"
+msgstr "Actual Qty"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_actual_return_date
+msgid "Actual Return Date"
+msgstr "Actual Return Date"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_book_issue_actual_return_date
+msgid "Actual Return Date of Book"
+msgstr "Actual Return Date of Book"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.book_editor_form
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Address"
+msgstr "Dirección"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_search
+msgid "Assignment Information"
+msgstr "Assignment Information"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_attach_ebook
+msgid "Attach EBook"
+msgstr "Attach EBook"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.attachment_tree_id
+msgid "Attachemnt"
+msgstr "Attachemnt"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_attachment
+#: model:ir.ui.view,arch_db:library.attachment_form_id
+msgid "Attachment"
+msgstr "Adjunto"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_date
+msgid "Attachment Date"
+msgstr "Attachment Date"
+
+#. module: library
+#: model:ir.model,name:library.model_library_author
+#: model:ir.model.fields,field_description:library.field_product_product_author
+#: model:ir.ui.menu,name:library.author_menu
+msgid "Author"
+msgstr "Autor"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.author_form
+msgid "Author Name"
+msgstr "Nombre del autor"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Author:"
+msgstr "Author:"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_author_list
+#: model:ir.ui.view,arch_db:library.author_form
+#: model:ir.ui.view,arch_db:library.author_search
+#: model:ir.ui.view,arch_db:library.author_tree
+#: model:ir.ui.view,arch_db:library.book_editor_form
+#: model:ir.ui.view,arch_db:library.editor_search
+#: model:ir.ui.view,arch_db:library.editor_tree
+#: model:ir.ui.view,arch_db:library.rack_form
+#: model:ir.ui.view,arch_db:library.rack_search
+#: model:ir.ui.view,arch_db:library.rack_tree
+msgid "Authors"
+msgstr "Authors"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Availability:"
+msgstr "Availability:"
+
+#. module: library
+#: selection:product.product,availability:0
+msgid "Available"
+msgstr "Available"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_bank_teller_amt
+msgid "Bank Teller Amount"
+msgstr "Bank Teller Amount"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_bank_teller_no
+msgid "Bank Teller No."
+msgstr "Bank Teller No."
+
+#. module: library
+#: sql_constraint:product.product:0
+msgid "Barcode and Code must be unique across                          all the products!"
+msgstr "Barcode and Code must be unique across                          all the products!"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Barcode e.g.5941246894325"
+msgstr "Barcode e.g.5941246894325"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_back
+msgid "Binding Type"
+msgstr "Tipo de vínculo"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_biography
+#: model:ir.model.fields,field_description:library.field_library_author_biography
+#: model:ir.ui.view,arch_db:library.author_form
+#: model:ir.ui.view,arch_db:library.book_editor_form
+msgid "Biography"
+msgstr "Biography"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_name_form11
+msgid "Book"
+msgstr "Book"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_attchment_ids
+msgid "Book Attachments"
+msgstr "Book Attachments"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_availability
+msgid "Book Availability"
+msgstr "Book Availability"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_category_book_categ
+#: model:ir.ui.view,arch_db:library.library_book_product_category_inherit_search
+msgid "Book Category"
+msgstr "Book Category"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_library_book_list1
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Book Issue"
+msgstr "Book Issue"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_account_invoice_book_issue_reference
+msgid "Book Issue Ref"
+msgstr "Book Issue Ref"
+
+#. module: library
+#: model:ir.ui.menu,name:library.menu_book_issue_sub_form
+msgid "Book Issues"
+msgstr "Book Issues"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Book Lost"
+msgstr "Book Lost"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.view_book_name_form
+#: model:ir.model,name:library.model_book_name
+#: model:ir.model.fields,field_description:library.field_book_name_name
+#: model:ir.model.fields,field_description:library.field_library_book_issue_name
+#: model:ir.model.fields,field_description:library.field_library_book_request_name
+#: model:ir.model.fields,field_description:library.field_library_book_request_new_book
+#: model:ir.model.fields,field_description:library.field_update_books_name
+#: model:ir.ui.view,arch_db:library.view_book_name_form11
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Book Name"
+msgstr "Book Name"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_book_id
+msgid "Book Ref"
+msgstr "Book Ref"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Book Reissue"
+msgstr "Book Reissue"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_form
+msgid "Book Request"
+msgstr "Book Request"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_form
+msgid "Book Request Form"
+msgstr "Book Request Form"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_search
+msgid "Book Request Search"
+msgstr "Book Request Search"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_lib_book_req
+#: model:ir.ui.menu,name:library.menu_lib_book_sub_req
+msgid "Book Requests"
+msgstr "Book Requests"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Book Return"
+msgstr "Book Return"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_day_to_return_book
+#: model:ir.model.fields,field_description:library.field_product_product_day_to_return_book
+msgid "Book Return Days"
+msgstr "Book Return Days"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_date_retour
+msgid "Book Return date"
+msgstr "Book Return date"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_book_issue_date_return
+msgid "Book To Be Return On This Date"
+msgstr "Book To Be Return On This Date"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_request_type
+msgid "Book Type"
+msgstr "Book Type"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_account_invoice_book_issue
+msgid "Book issue"
+msgstr "Book issue"
+
+#. module: library
+#: code:addons/library/models/library.py:276
+#: code:addons/library/models/library.py:282
+#, python-format
+msgid "Book issue limit is over on\n"
+"                        this card!"
+msgstr "Book issue limit is over on\n"
+"                        this card!"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_product_book_list
+#: model:ir.model.fields,field_description:library.field_library_author_book_ids
+#: model:ir.ui.menu,name:library.menu_books_student
+#: model:ir.ui.view,arch_db:library.author_form
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+#: model:ir.ui.view,arch_db:library.view_product_book_search
+#: model:ir.ui.view,arch_db:library.view_product_book_tree
+#: model:ir.ui.view,arch_db:library.view_update_books_form
+#: model:product.category,name:library.product_category_1
+msgid "Books"
+msgstr "Books"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_books_available
+msgid "Books Available"
+msgstr "Books Available"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_library_book_tree
+msgid "Books Issue"
+msgstr "Books Issue"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_library_req_tree
+msgid "Books Request"
+msgstr "Books Request"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "By Book Name"
+msgstr "By Book Name"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_book_product_category_inherit_search
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "By State"
+msgstr "By State"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+#: model:ir.ui.view,arch_db:library.view_book_name_form11
+#: model:ir.ui.view,arch_db:library.view_card_number_form
+#: model:ir.ui.view,arch_db:library.view_update_books_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: library
+#: selection:library.book.issue,state:0
+#: selection:library.book.request,state:0
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_form
+msgid "Cancle Request"
+msgstr "Cancle Request"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_card_info
+#: model:ir.ui.menu,name:library.menu_card_main
+#: model:ir.ui.view,arch_db:library.product_card_form_view
+#: model:ir.ui.view,arch_db:library.product_card_search_view
+#: model:ir.ui.view,arch_db:library.product_card_tree_view
+msgid "Card Details"
+msgstr "Card Details"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_form
+msgid "Card Id"
+msgstr "Card Id"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_name_card_id
+#: model:ir.model.fields,field_description:library.field_card_number_card_id
+#: model:ir.model.fields,field_description:library.field_library_book_issue_card_id
+#: model:ir.model.fields,field_description:library.field_library_book_request_card_id
+#: model:ir.model.fields,field_description:library.field_library_card_code
+#: model:ir.ui.view,arch_db:library.view_card_number_form
+msgid "Card No"
+msgstr "Card No"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_book_issue_kanban_view
+msgid "Card No :-"
+msgstr "Card No :-"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.card_number_ok
+#: model:ir.model,name:library.model_card_number
+#: model:ir.ui.view,arch_db:library.view_card_number_form
+msgid "Card Number"
+msgstr "Card Number"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_catalog_num
+msgid "Catalog number"
+msgstr "Catalog number"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+#: model:ir.ui.view,arch_db:library.library_book_issue_kanban_view
+msgid "Change Color"
+msgstr "Change Color"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_ebook_check
+msgid "Check Ebbok"
+msgstr "Check Ebbok"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_city
+#: model:ir.ui.view,arch_db:library.book_editor_form
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "City"
+msgstr "Ciudad"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.product_card_form_view
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Class"
+msgstr "Class"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_rack_code
+#: model:ir.model.fields,field_description:library.field_product_lang_code
+#: model:ir.ui.view,arch_db:library.product_card_form_view
+msgid "Code"
+msgstr "Código"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_num_pocket
+msgid "Collection No."
+msgstr "Collection No."
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_color
+msgid "Color Index"
+msgstr "Índice de color"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Company"
+msgstr "Compañía"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.product_card_form_view
+#: selection:library.book.request,state:0
+#: selection:library.card,state:0
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_form
+msgid "Confirm Request"
+msgstr "Confirm Request"
+
+#. module: library
+#: model:ir.model,name:library.model_res_partner
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Contacts"
+msgstr "Contactos"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_country_id
+#: model:ir.ui.view,arch_db:library.book_editor_form
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Country"
+msgstr "País"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_create_uid
+#: model:ir.model.fields,field_description:library.field_book_editor_create_uid
+#: model:ir.model.fields,field_description:library.field_book_name_create_uid
+#: model:ir.model.fields,field_description:library.field_card_number_create_uid
+#: model:ir.model.fields,field_description:library.field_library_author_create_uid
+#: model:ir.model.fields,field_description:library.field_library_book_issue_create_uid
+#: model:ir.model.fields,field_description:library.field_library_book_request_create_uid
+#: model:ir.model.fields,field_description:library.field_library_card_create_uid
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_create_uid
+#: model:ir.model.fields,field_description:library.field_library_rack_create_uid
+#: model:ir.model.fields,field_description:library.field_product_lang_create_uid
+#: model:ir.model.fields,field_description:library.field_update_books_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_create_date
+#: model:ir.model.fields,field_description:library.field_book_editor_create_date
+#: model:ir.model.fields,field_description:library.field_book_name_create_date
+#: model:ir.model.fields,field_description:library.field_card_number_create_date
+#: model:ir.model.fields,field_description:library.field_library_author_create_date
+#: model:ir.model.fields,field_description:library.field_library_book_issue_create_date
+#: model:ir.model.fields,field_description:library.field_library_book_request_create_date
+#: model:ir.model.fields,field_description:library.field_library_card_create_date
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_create_date
+#: model:ir.model.fields,field_description:library.field_library_rack_create_date
+#: model:ir.model.fields,field_description:library.field_product_lang_create_date
+#: model:ir.model.fields,field_description:library.field_update_books_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_creation_date
+msgid "Creation date"
+msgstr "Creation date"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_delay
+msgid "Customer Lead Time"
+msgstr "Plazo de entrega del cliente"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_account_invoice_line_customer_ref
+msgid "Customer reference"
+msgstr "Customer reference"
+
+#. module: library
+#: model:product.product,name:library.library_product_b13
+#: model:product.template,name:library.library_product_b13_product_template
+msgid "DBMS"
+msgstr "DBMS"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_book_issue_kanban_view
+msgid "Date Issue :-"
+msgstr "Date Issue :-"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_book_issue_kanban_view
+msgid "Date Return :-"
+msgstr "Date Return :-"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_author_born_date
+msgid "Date of Birth"
+msgstr "Fecha de nacimiento"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_author_death_date
+msgid "Date of Death"
+msgstr "Date of Death"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_book_issue_kanban_view
+msgid "Day To Return Book :-"
+msgstr "Day To Return Book :-"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Days of Returnning"
+msgstr "Days of Returnning"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Delete"
+msgstr "Suprimir"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_student_student_property_delivery_carrier_id
+msgid "Delivery Method"
+msgstr "Método de envío"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_name
+msgid "Description"
+msgstr "Descripción"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Descriptions"
+msgstr "Descriptions"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Details"
+msgstr "Detalles"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_display_name
+#: model:ir.model.fields,field_description:library.field_book_editor_display_name
+#: model:ir.model.fields,field_description:library.field_book_name_display_name
+#: model:ir.model.fields,field_description:library.field_card_number_display_name
+#: model:ir.model.fields,field_description:library.field_library_author_display_name
+#: model:ir.model.fields,field_description:library.field_library_book_issue_display_name
+#: model:ir.model.fields,field_description:library.field_library_book_request_display_name
+#: model:ir.model.fields,field_description:library.field_library_card_display_name
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_display_name
+#: model:ir.model.fields,field_description:library.field_library_rack_display_name
+#: model:ir.model.fields,field_description:library.field_product_lang_display_name
+#: model:ir.model.fields,field_description:library.field_update_books_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: library
+#: selection:library.book.issue,state:0
+msgid "Done"
+msgstr "Done"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_ebook_download
+msgid "Download Book"
+msgstr "Download Book"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+#: model:ir.ui.view,arch_db:library.view_book_library_req_search
+#: selection:library.book.issue,state:0
+#: selection:library.book.request,state:0
+#: selection:library.card,state:0
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.product_card_form_view
+msgid "Draft State"
+msgstr "Draft State"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_card_duration
+msgid "Duration"
+msgstr "Duración"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_card_duration
+msgid "Duration in months"
+msgstr "Duration in months"
+
+#. module: library
+#: selection:library.book.request,type:0
+msgid "E Book"
+msgstr "E Book"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "E Book Details"
+msgstr "E Book Details"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_request_ebook_name
+msgid "E book Name"
+msgstr "E book Name"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+#: model:ir.ui.view,arch_db:library.library_book_issue_kanban_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Edit..."
+msgstr "Edit..."
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Edition :"
+msgstr "Edition :"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_num_edition
+msgid "Edition number of book"
+msgstr "Edition number of book"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_name
+#: model:ir.model.fields,field_description:library.field_product_product_editor_ids
+msgid "Editor"
+msgstr "Editor"
+
+#. module: library
+#: model:ir.model,name:library.model_library_editor_supplier
+msgid "Editor Relations"
+msgstr "Editor Relations"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_editor_supplier_form1
+#: model:ir.ui.view,arch_db:library.library_editor_supplier_search
+#: model:ir.ui.view,arch_db:library.library_editor_supplier_tree
+msgid "Editor and suppliers relations"
+msgstr "Editor and suppliers relations"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_author_editor_ids
+#: model:ir.ui.view,arch_db:library.author_form
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Editors"
+msgstr "Editors"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.book_editor_form
+msgid "Employee's Name"
+msgstr "Nombre del empleado"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_card_end_date
+msgid "End Date"
+msgstr "Fecha de Finalización"
+
+#. module: library
+#: model:product.lang,name:library.library_language_1
+msgid "English"
+msgstr "English"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Enter Book Default code"
+msgstr "Enter Book Default code"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Enter Catalog No"
+msgstr "Enter Catalog No"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Enter Description About Book"
+msgstr "Enter Description About Book"
+
+#. module: library
+#: code:addons/library/models/library.py:618
+#, python-format
+msgid "Error ! Teacher must have a Homeaddress!."
+msgstr "Error ! Teacher must have a Homeaddress!."
+
+#. module: library
+#: code:addons/library/models/library.py:569
+#, python-format
+msgid "Error ! Teacher must have a Homeaddress."
+msgstr "Error ! Teacher must have a Homeaddress."
+
+#. module: library
+#: code:addons/library/models/library.py:613
+#, python-format
+msgid "Error !The Student must have a Home address."
+msgstr "Error !The Student must have a Home address."
+
+#. module: library
+#: code:addons/library/models/library.py:564
+#, python-format
+msgid "Error!The Student must have a Home address!"
+msgstr "Error!The Student must have a Home address!"
+
+#. module: library
+#: selection:library.card,state:0
+msgid "Expire"
+msgstr "Expire"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_fax
+msgid "Fax"
+msgstr "Fax"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_lost_penalty
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Fine"
+msgstr "Fine"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Fine Details"
+msgstr "Fine Details"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_fine_lost
+msgid "Fine Lost"
+msgstr "Fine Lost"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Fine amount if Lost"
+msgstr "Fine amount if Lost"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Fine amount if late return"
+msgstr "Fine amount if late return"
+
+#. module: library
+#: selection:library.book.issue,state:0
+msgid "Fined"
+msgstr "Fined"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_format
+msgid "Format"
+msgstr "Format"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Format of Book"
+msgstr "Format of Book"
+
+#. module: library
+#: model:product.lang,name:library.library_language_2
+msgid "French"
+msgstr "French"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.author_form
+msgid "General Information"
+msgstr "Información General"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_book_product_category_inherit_search
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_search
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: library
+#: selection:product.product,back:0
+msgid "HardBack"
+msgstr "HardBack"
+
+#. module: library
+#: selection:library.book.request,type:0
+msgid "HardCopy"
+msgstr "HardCopy"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_id
+#: model:ir.model.fields,field_description:library.field_book_editor_id
+#: model:ir.model.fields,field_description:library.field_book_name_id
+#: model:ir.model.fields,field_description:library.field_card_number_id
+#: model:ir.model.fields,field_description:library.field_library_author_id
+#: model:ir.model.fields,field_description:library.field_library_book_issue_id
+#: model:ir.model.fields,field_description:library.field_library_book_request_id
+#: model:ir.model.fields,field_description:library.field_library_card_id
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_id
+#: model:ir.model.fields,field_description:library.field_library_rack_id
+#: model:ir.model.fields,field_description:library.field_product_lang_id
+#: model:ir.model.fields,field_description:library.field_update_books_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_isbn
+msgid "ISBN Code"
+msgstr "ISBN Code"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "ISBN Number"
+msgstr "ISBN Number"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_image
+msgid "Image"
+msgstr "Imagen"
+
+#. module: library
+#: code:addons/library/wizard/card_no.py:21
+#, python-format
+msgid "Invalid Card Number."
+msgstr "Invalid Card Number."
+
+#. module: library
+#: model:ir.model,name:library.model_account_invoice
+#: model:ir.ui.view,arch_db:library.invoice_tree
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: library
+#: model:ir.model,name:library.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Linea de la Factura"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_student_student_target_sales_invoiced
+msgid "Invoiced in Sales Orders Target"
+msgstr "Facturado en objetivo de pedidos de venta"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_is_ebook
+msgid "Is EBook"
+msgstr "Is EBook"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_is_subscription
+msgid "Is Subscription based"
+msgstr "Is Subscription based"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Is a Company?"
+msgstr "Is a Company?"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "Issue"
+msgstr "Issue"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Issue Date"
+msgstr "Issue Date"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_issue_code
+msgid "Issue No."
+msgstr "Issue No."
+
+#. module: library
+#: selection:library.book.issue,state:0
+msgid "Issued"
+msgstr "Issued"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_book_issue_penalty
+msgid "It show the late book return penalty"
+msgstr "It show the late book return penalty"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_book_issue_lost_penalty
+msgid "It show the penalty for lost book"
+msgstr "It show the penalty for lost book"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_lang
+msgid "Language"
+msgstr "Idioma"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.product_lang_form_view
+msgid "Language Code"
+msgstr "Language Code"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.product_lang_form_view
+msgid "Language Name"
+msgstr "Language Name"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Language of Book"
+msgstr "Language of Book"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Language:"
+msgstr "Language:"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_lang
+#: model:ir.ui.menu,name:library.menu_lang
+#: model:ir.ui.view,arch_db:library.product_lang_form_view
+msgid "Languages"
+msgstr "Idiomas"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment___last_update
+#: model:ir.model.fields,field_description:library.field_book_editor___last_update
+#: model:ir.model.fields,field_description:library.field_book_name___last_update
+#: model:ir.model.fields,field_description:library.field_card_number___last_update
+#: model:ir.model.fields,field_description:library.field_library_author___last_update
+#: model:ir.model.fields,field_description:library.field_library_book_issue___last_update
+#: model:ir.model.fields,field_description:library.field_library_book_request___last_update
+#: model:ir.model.fields,field_description:library.field_library_card___last_update
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier___last_update
+#: model:ir.model.fields,field_description:library.field_library_rack___last_update
+#: model:ir.model.fields,field_description:library.field_product_lang___last_update
+#: model:ir.model.fields,field_description:library.field_update_books___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_write_uid
+#: model:ir.model.fields,field_description:library.field_book_editor_write_uid
+#: model:ir.model.fields,field_description:library.field_book_name_write_uid
+#: model:ir.model.fields,field_description:library.field_card_number_write_uid
+#: model:ir.model.fields,field_description:library.field_library_author_write_uid
+#: model:ir.model.fields,field_description:library.field_library_book_issue_write_uid
+#: model:ir.model.fields,field_description:library.field_library_book_request_write_uid
+#: model:ir.model.fields,field_description:library.field_library_card_write_uid
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_write_uid
+#: model:ir.model.fields,field_description:library.field_library_rack_write_uid
+#: model:ir.model.fields,field_description:library.field_product_lang_write_uid
+#: model:ir.model.fields,field_description:library.field_update_books_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_attachment_write_date
+#: model:ir.model.fields,field_description:library.field_book_editor_write_date
+#: model:ir.model.fields,field_description:library.field_book_name_write_date
+#: model:ir.model.fields,field_description:library.field_card_number_write_date
+#: model:ir.model.fields,field_description:library.field_library_author_write_date
+#: model:ir.model.fields,field_description:library.field_library_book_issue_write_date
+#: model:ir.model.fields,field_description:library.field_library_book_request_write_date
+#: model:ir.model.fields,field_description:library.field_library_card_write_date
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_write_date
+#: model:ir.model.fields,field_description:library.field_library_rack_write_date
+#: model:ir.model.fields,field_description:library.field_product_lang_write_date
+#: model:ir.model.fields,field_description:library.field_update_books_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_fine_late_return
+msgid "Late Return"
+msgstr "Late Return"
+
+#. module: library
+#: model:res.groups,name:library.group_librarian
+msgid "Librarian"
+msgstr "Librarian"
+
+#. module: library
+#: model:ir.ui.menu,name:library.menu_library
+#: model:ir.ui.menu,name:library.menu_library_config
+msgid "Library"
+msgstr "Library"
+
+#. module: library
+#: model:ir.actions.server,name:library.ir_cron_library_card_every_day_schedule_ir_actions_server
+#: model:ir.cron,cron_name:library.ir_cron_library_card_every_day_schedule
+#: model:ir.cron,name:library.ir_cron_library_card_every_day_schedule
+msgid "Library Card"
+msgstr "Library Card"
+
+#. module: library
+#: model:ir.model,name:library.model_library_card
+msgid "Library Card information"
+msgstr "Library Card information"
+
+#. module: library
+#: model:ir.module.category,name:library.module_category_school
+msgid "Library Management"
+msgstr "Library Management"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_library_rack
+#: model:ir.model,name:library.model_library_rack
+#: model:ir.ui.menu,name:library.menu_library_rack
+msgid "Library Rack"
+msgstr "Library Rack"
+
+#. module: library
+#: model:ir.model,name:library.model_library_book_issue
+msgid "Library information"
+msgstr "Library information"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+#: selection:library.book.issue,state:0
+msgid "Lost"
+msgstr "Perdido"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Mail"
+msgstr "Mail"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.product_card_form_view
+msgid "Membership Details"
+msgstr "Membership Details"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_terminate_reason_info
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_min_qty
+msgid "Minimal Quantity"
+msgstr "Cantidad mínima"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_mobile
+msgid "Mobile"
+msgstr "Móvil"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.author_form
+msgid "More Information"
+msgstr "More Information"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_name
+#: model:ir.model.fields,field_description:library.field_library_author_name
+#: model:ir.model.fields,field_description:library.field_library_book_issue_gt_name
+#: model:ir.model.fields,field_description:library.field_library_book_request_bk_nm
+#: model:ir.model.fields,field_description:library.field_library_card_gt_name
+#: model:ir.model.fields,field_description:library.field_library_rack_name
+#: model:ir.model.fields,field_description:library.field_product_lang_name
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Name"
+msgstr "Nombre"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Name :"
+msgstr "Name :"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Name of Author"
+msgstr "Name of Author"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "Name of book"
+msgstr "Name of book"
+
+#. module: library
+#: code:addons/library/models/library.py:96
+#: code:addons/library/models/library.py:137
+#: code:addons/library/models/library.py:293
+#: code:addons/library/models/library.py:457
+#, python-format
+msgid "New"
+msgstr "New"
+
+#. module: library
+#: code:addons/library/models/library.py:595
+#: code:addons/library/models/library.py:637
+#, python-format
+msgid "New Invoice"
+msgstr "New Invoice"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_card_book_limit
+msgid "No Of Book Limit On Card"
+msgstr "No Of Book Limit On Card"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "No of Addition of Book"
+msgstr "No of Addition of Book"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "No of Page in books"
+msgstr "No of Page in books"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_num_edition
+msgid "No. edition"
+msgstr "No. edition"
+
+#. module: library
+#: selection:product.product,availability:0
+msgid "Not Available"
+msgstr "Not Available"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_note
+#: model:ir.model.fields,field_description:library.field_library_author_note
+#: model:ir.ui.view,arch_db:library.author_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_compute_inv
+msgid "Number of invoice"
+msgstr "Number of invoice"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_nbpage
+msgid "Number of pages"
+msgstr "Number of pages"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_stock_move_origin_ref
+msgid "Origin"
+msgstr "Origin"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Pages :"
+msgstr "Pages :"
+
+#. module: library
+#: selection:product.product,back:0
+msgid "PaperBack"
+msgstr "PaperBack"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Partners"
+msgstr "Empresas"
+
+#. module: library
+#: selection:library.book.issue,payment_mode:0
+msgid "Pay By Bank"
+msgstr "Pay By Bank"
+
+#. module: library
+#: selection:library.book.issue,payment_mode:0
+msgid "Pay Cash"
+msgstr "Pay Cash"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_payment_mode
+msgid "Payment Mode"
+msgstr "Payment Mode"
+
+#. module: library
+#: model:ir.model,name:library.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_penalty
+msgid "Penalty"
+msgstr "Penalty"
+
+#. module: library
+#: selection:library.book.issue,state:0
+msgid "Pending"
+msgstr "Pending"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_phone
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.vpicktree
+msgid "Picking List"
+msgstr "Lista de albaranes"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_pocket
+msgid "Pocket"
+msgstr "Pocket"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Position of book"
+msgstr "Position of book"
+
+#. module: library
+#: model:ir.model,name:library.model_product_product
+#: model:ir.model.fields,field_description:library.field_book_attachment_product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: library
+#: model:ir.model,name:library.model_product_category
+msgid "Product Category"
+msgstr "Categoría de producto"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.product_lang_form_view
+#: model:ir.ui.view,arch_db:library.product_lang_tree_view
+msgid "Product Languages"
+msgstr "Product Languages"
+
+#. module: library
+#: model:ir.model,name:library.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de producto"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_account_invoice_line_production_lot_id
+msgid "Production Lot"
+msgstr "Production Lot"
+
+#. module: library
+#: model:ir.actions.report,name:library.reportqrcode_label_qweb
+msgid "QR Code Report"
+msgstr "QR Code Report"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.books_kanban_view
+msgid "Qty:"
+msgstr "Qty:"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_rack
+msgid "Rack"
+msgstr "Rack"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_creation_date
+msgid "Record creation date"
+msgstr "Record creation date"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_catalog_num
+msgid "Reference number of book"
+msgstr "Reference number of book"
+
+#. module: library
+#: selection:library.book.issue,state:0
+msgid "Reissued"
+msgstr "Reissued"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_date_issue
+msgid "Release Date"
+msgstr "Release Date"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_book_issue_date_issue
+msgid "Release(Issue) date of the book"
+msgstr "Release(Issue) date of the book"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Remaining Qty"
+msgstr "Remaining Qty"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_request_req_id
+msgid "Request ID"
+msgstr "Request ID"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "Return"
+msgstr "Devolver"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_date_return
+#: model:ir.model.fields,field_description:library.field_product_product_date_retour
+msgid "Return Date"
+msgstr "Return Date"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_request_book_return_days
+msgid "Return Days"
+msgstr "Return Days"
+
+#. module: library
+#: selection:library.book.issue,state:0
+msgid "Returned"
+msgstr "Returned"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_roll_no
+#: model:ir.model.fields,field_description:library.field_library_card_roll_no
+msgid "Roll No"
+msgstr "Roll No"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_product_book_form
+msgid "Select or Create Book"
+msgstr "Select or Create Book"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_sequence
+msgid "Sequence"
+msgstr "Secuencia"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_book_request_active
+msgid "Set active to false to hide\n"
+"    the category without removing it."
+msgstr "Set active to false to hide\n"
+"    the category without removing it."
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_isbn
+msgid "Shows International Standard Book Number"
+msgstr "Shows International Standard Book Number"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_back
+msgid "Shows books-binding type"
+msgstr "Shows books-binding type"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_num_pocket
+msgid "Shows collection number in whichbook resides"
+msgstr "Shows collection number in whichbook resides"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_rack
+msgid "Shows position of book"
+msgstr "Shows position of book"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_standard_id
+#: model:ir.model.fields,field_description:library.field_library_card_standard_id
+msgid "Standard"
+msgstr "Standard"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_card_start_date
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_state_id
+#: model:ir.model.fields,field_description:library.field_library_book_issue_state
+#: model:ir.model.fields,field_description:library.field_library_book_request_state
+#: model:ir.model.fields,field_description:library.field_library_card_state
+#: model:ir.ui.view,arch_db:library.book_editor_form
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "State"
+msgstr "Estado"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.library_book_issue_kanban_view
+msgid "Status :-"
+msgstr "Status :-"
+
+#. module: library
+#: model:ir.model,name:library.model_stock_move
+msgid "Stock Move"
+msgstr "Movimiento de Stock"
+
+#. module: library
+#: model:ir.model,name:library.model_book_attachment
+msgid "Stores attachments of the book"
+msgstr "Stores attachments of the book"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_tome
+msgid "Stores information of work in several volume"
+msgstr "Stores information of work in several volume"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_street
+msgid "Street"
+msgstr "Calle"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.book_editor_form
+msgid "Street 2..."
+msgstr "Calle 2..."
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.book_editor_form
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Street..."
+msgstr "Calle..."
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_street2
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: library
+#: selection:library.card,user:0
+msgid "Student"
+msgstr "Student"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Student Details"
+msgstr "Student Details"
+
+#. module: library
+#: model:ir.model,name:library.model_student_student
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Student Information"
+msgstr "Student Information"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_student_id
+#: model:ir.model.fields,field_description:library.field_library_card_student_id
+msgid "Student Name"
+msgstr "Student Name"
+
+#. module: library
+#: selection:library.book.issue,state:0
+msgid "Subscribe"
+msgstr "Subscribe"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_subscription_amt
+#: model:ir.model.fields,field_description:library.field_product_product_subscrption_amt
+msgid "Subscription Amount"
+msgstr "Subscription Amount"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Subscription Payment"
+msgstr "Subscription Payment"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_editor_supplier_supplier_id
+msgid "Supplier"
+msgstr "Supplier"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_product_product_tome
+msgid "TOME"
+msgstr "TOME"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "Tags..."
+msgstr "Etiquetas..."
+
+#. module: library
+#: selection:library.card,user:0
+msgid "Teacher"
+msgstr "Teacher"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_form_1
+msgid "Teacher Details"
+msgstr "Teacher Details"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_teacher_id
+#: model:ir.model.fields,field_description:library.field_library_card_teacher_id
+msgid "Teacher Name"
+msgstr "Teacher Name"
+
+#. module: library
+#: code:addons/library/models/library.py:452
+#, python-format
+msgid "The Membership of library\n"
+"                card is over!"
+msgstr "The Membership of library\n"
+"                card is over!"
+
+#. module: library
+#: code:addons/library/models/library.py:739
+#, python-format
+msgid "The Membership of library card is\n"
+"                over!"
+msgstr "The Membership of library card is\n"
+"                over!"
+
+#. module: library
+#: code:addons/library/models/library.py:461
+#, python-format
+msgid "The book you have selected is\n"
+"                    not available now. Please try after sometime!"
+msgstr "The book you have selected is\n"
+"                    not available now. Please try after sometime!"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_product_product_format
+msgid "The general physical appearance of a book"
+msgstr "The general physical appearance of a book"
+
+#. module: library
+#: sql_constraint:library.author:0
+msgid "The name of the author must be unique !"
+msgstr "The name of the author must be unique !"
+
+#. module: library
+#: sql_constraint:product.lang:0
+msgid "The name of the language must be unique !"
+msgstr "The name of the language must be unique !"
+
+#. module: library
+#: code:addons/library/models/product.py:347
+#, python-format
+msgid "There is no Book requested"
+msgstr "There is no Book requested"
+
+#. module: library
+#: code:addons/library/models/product.py:327
+#, python-format
+msgid "There is no Books Purchase !"
+msgstr "There is no Books Purchase !"
+
+#. module: library
+#: code:addons/library/wizard/update_book.py:22
+#, python-format
+msgid "This Book is not available!\n"
+"                        Please try after sometime !"
+msgstr "This Book is not available!\n"
+"                        Please try after sometime !"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_student_student_property_delivery_carrier_id
+msgid "This delivery method will be used when invoicing from picking."
+msgstr "Este método de entrega será utilizado cuando se facture a partir del albarán."
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_title
+msgid "Title"
+msgstr "Título"
+
+#. module: library
+#: model:ir.model,name:library.model_stock_picking
+msgid "Transfer"
+msgstr "Transferir"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_book_library_req_search
+msgid "Type"
+msgstr "Tipo"
+
+#. module: library
+#: model:ir.actions.act_window,name:library.action_update_books
+#: model:ir.model,name:library.model_update_books
+msgid "Update Books"
+msgstr "Update Books"
+
+#. module: library
+#: model:product.lang,name:library.library_language_3
+msgid "Urdu"
+msgstr "Urdu"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_res_partner_use_parent_address
+#: model:ir.model.fields,field_description:library.field_res_users_use_parent_address
+#: model:ir.model.fields,field_description:library.field_student_student_use_parent_address
+msgid "Use Parent Address"
+msgstr "Use Parent Address"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_user
+#: model:ir.model.fields,field_description:library.field_library_card_user
+#: model:ir.ui.view,arch_db:library.view_book_issue_search
+msgid "User"
+msgstr "Usuario"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_library_book_issue_invoice_id
+msgid "User's Invoice"
+msgstr "User's Invoice"
+
+#. module: library
+#: model:res.groups,name:library.group_userian
+msgid "Userian"
+msgstr "Userian"
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_website
+msgid "Website"
+msgstr "Sitio web"
+
+#. module: library
+#: code:addons/library/models/library.py:472
+#, python-format
+msgid "You can not request for a book until the fine is not paid for book issues %s!"
+msgstr "You can not request for a book until the fine is not paid for book issues %s!"
+
+#. module: library
+#: code:addons/library/models/library.py:123
+#, python-format
+msgid "You cannot assign library card to\n"
+"                same student more than once!"
+msgstr "You cannot assign library card to\n"
+"                same student more than once!"
+
+#. module: library
+#: code:addons/library/models/library.py:131
+#, python-format
+msgid "You cannot assign library card to\n"
+"                same teacher more than once!"
+msgstr "You cannot assign library card to\n"
+"                same teacher more than once!"
+
+#. module: library
+#: code:addons/library/models/library.py:148
+#, python-format
+msgid "You cannot delete a confirmed\n"
+"                library card!"
+msgstr "You cannot delete a confirmed\n"
+"                library card!"
+
+#. module: library
+#: code:addons/library/models/library.py:778
+#, python-format
+msgid "You cannot delete a confirmed\n"
+"                record of library book request!"
+msgstr "You cannot delete a confirmed\n"
+"                record of library book request!"
+
+#. module: library
+#: code:addons/library/models/library.py:375
+#, python-format
+msgid "You cannot issue same book on\n"
+"                                    same card more than once at same time!"
+msgstr "You cannot issue same book on\n"
+"                                    same card more than once at same time!"
+
+#. module: library
+#: code:addons/library/models/library.py:713
+#, python-format
+msgid "You cannot request same book on same\n"
+"                                    card number more than once at same time!"
+msgstr "You cannot request same book on same\n"
+"                                    card number more than once at same time!"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.book_editor_form
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "ZIP"
+msgstr "C.P."
+
+#. module: library
+#: model:ir.model.fields,field_description:library.field_book_editor_zip
+msgid "Zip"
+msgstr "C.P."
+
+#. module: library
+#: model:ir.model,name:library.model_book_editor
+msgid "book.editor"
+msgstr "book.editor"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "e.g. +32.81.81.37.00"
+msgstr "e.g. +32.81.81.37.00"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "e.g. Sales Director"
+msgstr "Por ejemplo, Director de Ventas"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.book_editor_form
+msgid "e.g. www.odoo.com"
+msgstr "Por ejemplo, www.odoo.com"
+
+#. module: library
+#: model:ir.ui.view,arch_db:library.view_partner_form_11
+msgid "e.g. www.openerp.com"
+msgstr "e.g. www.openerp.com"
+
+#. module: library
+#: model:ir.model.fields,help:library.field_library_rack_name
+msgid "it will be show the position of book"
+msgstr "it will be show the position of book"
+
+#. module: library
+#: model:ir.model,name:library.model_library_book_request
+msgid "library.book.request"
+msgstr "library.book.request"
+
+#. module: library
+#: model:ir.model,name:library.model_product_lang
+msgid "product.lang"
+msgstr "product.lang"
+
+#. module: library
+#: model:ir.model,name:library.model_terminate_reason
+msgid "terminate.reason"
+msgstr "terminate.reason"
+

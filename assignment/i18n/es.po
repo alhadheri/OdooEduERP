@@ -1,0 +1,556 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* assignment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 12:36+0000\n"
+"PO-Revision-Date: 2018-10-02 12:36+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_active
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+#: selection:school.student.assignment,state:0
+#: selection:school.teacher.assignment,state:0
+msgid "Active"
+msgstr "Activo"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Active Assignment"
+msgstr "Active Assignment"
+
+#. module: assignment
+#: model:ir.actions.act_window,name:assignment.student_homework_reject
+#: model:ir.ui.view,arch_db:assignment.assignment_reject_homework_wiz
+msgid "Assigment Rejection Reason"
+msgstr "Assigment Rejection Reason"
+
+#. module: assignment
+#: model:ir.actions.act_window,name:assignment.action_school_teacher_assignment_form
+#: model:ir.ui.menu,name:assignment.menu_teacher_assignment_sub_form
+msgid "Assign Assignment"
+msgstr "Assign Assignment"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_assign_date
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_assign_date
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+msgid "Assign Date"
+msgstr "Assign Date"
+
+#. module: assignment
+#: model:ir.ui.menu,name:assignment.menu_assignment
+#: model:ir.ui.view,arch_db:assignment.view_student_student_form2
+msgid "Assignment"
+msgstr "Assignment"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_tree
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_tree
+msgid "Assignment Information"
+msgstr "Assignment Information"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_name
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_name
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_name
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Assignment Name"
+msgstr "Assignment Name"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_attached_homework
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_attached_homework
+msgid "Attached Home work"
+msgstr "Attached Home work"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_teacher_assignment_attached_homework
+msgid "Attached Homework"
+msgstr "Attached Homework"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Attachment File"
+msgstr "Attachment File"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.assignment_reject_homework_wiz
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_standard_id
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_standard_id
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Class"
+msgstr "Class"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format_create_uid
+#: model:ir.model.fields,field_description:assignment.field_reject_reason_create_uid
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_create_uid
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format_create_date
+#: model:ir.model.fields,field_description:assignment.field_reject_reason_create_date
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_create_date
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+msgid "Dates"
+msgstr "Fechas"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format_display_name
+#: model:ir.model.fields,field_description:assignment.field_reject_reason_display_name
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_display_name
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+#: selection:school.student.assignment,state:0
+#: selection:school.teacher.assignment,state:0
+msgid "Done"
+msgstr "Hecho"
+
+#. module: assignment
+#: selection:school.student.assignment,state:0
+#: selection:school.teacher.assignment,state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_due_date
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_due_date
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Due Date"
+msgstr "Fecha vencimiento"
+
+#. module: assignment
+#: code:addons/assignment/models/homework.py:16
+#, python-format
+msgid "Due date of homework should                                     be greater than assign date"
+msgstr "Due date of homework should                                     be greater than assign date"
+
+#. module: assignment
+#: code:addons/assignment/models/homework.py:113
+#, python-format
+msgid "Due date of homework should be greater                                    than Assign date!"
+msgstr "Due date of homework should be greater                                    than Assign date!"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_due_date
+msgid "End date of assignment"
+msgstr "End date of assignment"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_teacher_assignment_due_date
+msgid "Ending date of assignment"
+msgstr "Ending date of assignment"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_file_format
+msgid "File Format"
+msgstr "Formato del archivo"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_file_name
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_attach_files
+msgid "File Name"
+msgstr "Nombre del archivo"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+msgid "Filter By"
+msgstr "Filter By"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+msgid "Group By..."
+msgstr "Agrupar por..."
+
+#. module: assignment
+#: selection:school.student.assignment,submission_type:0
+#: selection:school.teacher.assignment,type_submission:0
+msgid "Hardcopy(Paperwork)"
+msgstr "Hardcopy(Paperwork)"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_attached_homework
+msgid "Homework Attached by student"
+msgstr "Homework Attached by student"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format_id
+#: model:ir.model.fields,field_description:assignment.field_reject_reason_id
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_id
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: assignment
+#: code:addons/assignment/models/homework.py:161
+#: code:addons/assignment/models/homework.py:166
+#, python-format
+msgid "Kindly attach file with\n"
+"                format: %s!"
+msgstr "Kindly attach file with\n"
+"                format: %s!"
+
+#. module: assignment
+#: code:addons/assignment/models/homework.py:178
+#, python-format
+msgid "Kindly attach homework!"
+msgstr "Kindly attach homework!"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format___last_update
+#: model:ir.model.fields,field_description:assignment.field_reject_reason___last_update
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment___last_update
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format_write_uid
+#: model:ir.model.fields,field_description:assignment.field_reject_reason_write_uid
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_write_uid
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format_write_date
+#: model:ir.model.fields,field_description:assignment.field_reject_reason_write_date
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_write_date
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_file_format_name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_teacher_assignment_name
+msgid "Name of Assignment"
+msgstr "Name of Assignment"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_student_id
+msgid "Name of Student"
+msgstr "Name of Student"
+
+#. module: assignment
+#: code:addons/assignment/models/homework.py:66
+#, python-format
+msgid "Please attach the homework!"
+msgstr "Please attach the homework!"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+msgid "Re-Assign"
+msgstr "Re-Assign"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Re-assign assigment"
+msgstr "Re-assign assigment"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: selection:school.student.assignment,state:0
+msgid "Reject"
+msgstr "Reject"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+msgid "Reject Assignment"
+msgstr "Reject Assignment"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_reject_reason_reasons
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_rejection_reason
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_rejection_reason
+msgid "Reject Reason"
+msgstr "Reject Reason"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_stud_roll_no
+msgid "Roll No of student"
+msgstr "Roll No of student"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_stud_roll_no
+msgid "Roll no"
+msgstr "Roll no"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.assignment_reject_homework_wiz
+msgid "Save"
+msgstr "Guardar"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_standard_id
+#: model:ir.model.fields,help:assignment.field_school_teacher_assignment_standard_id
+msgid "Select Standard"
+msgstr "Select Standard"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_subject_id
+#: model:ir.model.fields,help:assignment.field_school_teacher_assignment_subject_id
+msgid "Select Subject"
+msgstr "Select Subject"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_teacher_assignment_teacher_id
+msgid "Select Teacher"
+msgstr "Select Teacher"
+
+#. module: assignment
+#: selection:school.student.assignment,submission_type:0
+#: selection:school.teacher.assignment,type_submission:0
+msgid "Softcopy"
+msgstr "Softcopy"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+msgid "Standard"
+msgstr "Standard"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+msgid "Standard and Division"
+msgstr "Standard and Division"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_assign_date
+#: model:ir.model.fields,help:assignment.field_school_teacher_assignment_assign_date
+msgid "Starting date of assignment"
+msgstr "Starting date of assignment"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+msgid "State"
+msgstr "Estado"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_state
+msgid "States of assignment"
+msgstr "States of assignment"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_state
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_state
+msgid "Status"
+msgstr "Estado"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_student_id
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+msgid "Student"
+msgstr "Student"
+
+#. module: assignment
+#: model:ir.actions.act_window,name:assignment.action_school_student_assignment_form
+#: model:ir.actions.act_window,name:assignment.action_school_student_assignment_form_btn
+#: model:ir.ui.menu,name:assignment.menu_student_assignment_sub_form
+msgid "Student Assignment"
+msgstr "Student Assignment"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Student Assignment Details"
+msgstr "Student Assignment Details"
+
+#. module: assignment
+#: model:ir.model,name:assignment.model_school_student_assignment
+msgid "Student Assignment Information"
+msgstr "Student Assignment Information"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_student_assign_ids
+msgid "Student Assignments"
+msgstr "Student Assignments"
+
+#. module: assignment
+#: model:ir.model,name:assignment.model_student_student
+msgid "Student Information"
+msgstr "Student Information"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_student_standard
+msgid "Student Standard"
+msgstr "Student Standard"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_subject_id
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_subject_id
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_subject_standard_assignment
+msgid "Subject Standard Assignment"
+msgstr "Subject Standard Assignment"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Subject and Dates"
+msgstr "Subject and Dates"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+msgid "Submission Details"
+msgstr "Submission Details"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_attachfile_format
+msgid "Submission Fileformat"
+msgstr "Submission Fileformat"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Submission Format Information"
+msgstr "Submission Format Information"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_submission_type
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_type_submission
+msgid "Submission Type"
+msgstr "Submission Type"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_submit_assign
+msgid "Submit Assignment"
+msgstr "Submit Assignment"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_teacher_id
+#: model:ir.model.fields,field_description:assignment.field_school_teacher_assignment_teacher_id
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_search
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_search
+msgid "Teacher"
+msgstr "Teacher"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Teacher Assignment"
+msgstr "Teacher Assignment"
+
+#. module: assignment
+#: model:ir.model,name:assignment.model_school_teacher_assignment
+msgid "Teacher Assignment Information"
+msgstr "Teacher Assignment Information"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "Teacher Name"
+msgstr "Teacher Name"
+
+#. module: assignment
+#: model:ir.model.fields,help:assignment.field_school_student_assignment_teacher_id
+msgid "Teacher responsible to assign\n"
+"                                 assignment"
+msgstr "Teacher responsible to assign\n"
+"                                 assignment"
+
+#. module: assignment
+#: model:ir.model.fields,field_description:assignment.field_school_student_assignment_teacher_assignment_id
+msgid "Teachers"
+msgstr "Teachers"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_student_assignment_form
+msgid "Upload / Download Attachments"
+msgstr "Upload / Download Attachments"
+
+#. module: assignment
+#: code:addons/assignment/models/homework.py:101
+#: code:addons/assignment/models/homework.py:203
+#, python-format
+msgid "You can delete record in unconfirm\n"
+"                state only!"
+msgstr "You can delete record in unconfirm\n"
+"                state only!"
+
+#. module: assignment
+#: code:addons/assignment/models/homework.py:188
+#, python-format
+msgid "You have not attached the homework!\n"
+"            Please attach the homework!"
+msgstr "You have not attached the homework!\n"
+"            Please attach the homework!"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "done assigment"
+msgstr "done assigment"
+
+#. module: assignment
+#: model:ir.model,name:assignment.model_file_format
+msgid "file.format"
+msgstr "file.format"
+
+#. module: assignment
+#: model:ir.ui.view,arch_db:assignment.view_school_teacher_assignment_form
+msgid "reject assignment"
+msgstr "reject assignment"
+
+#. module: assignment
+#: model:ir.model,name:assignment.model_reject_reason
+msgid "reject.reason"
+msgstr "reject.reason"
+
+#. module: assignment
+#: model:ir.model,name:assignment.model_terminate_reason
+msgid "terminate.reason"
+msgstr "terminate.reason"
+

@@ -1,0 +1,639 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* school_hostel
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 12:50+0000\n"
+"PO-Revision-Date: 2018-10-02 12:50+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>Admission Date</b>"
+msgstr "<b>Admission Date</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>Discharge Date</b>"
+msgstr "<b>Discharge Date</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>HOSTEL Name</b>"
+msgstr "<b>HOSTEL Name</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>Paid Fee</b>"
+msgstr "<b>Paid Fee</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>Remaining Fee</b>"
+msgstr "<b>Remaining Fee</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>Room No.</b>"
+msgstr "<b>Room No.</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>School Name</b>"
+msgstr "<b>School Name</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>Student Name</b>"
+msgstr "<b>Student Name</b>"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "<b>Total Room Rent</b>"
+msgstr "<b>Total Room Rent</b>"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_acutal_discharge_date
+msgid "Actual Discharge Date"
+msgstr "Actual Discharge Date"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_admission_date
+msgid "Admission Date"
+msgstr "Admission Date"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_ac
+msgid "Air Conditioning"
+msgstr "Air Conditioning"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_student_paid_amount
+msgid "Amount Paid"
+msgstr "Amount Paid"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_availability
+msgid "Availability"
+msgstr "Disponibilidad"
+
+#. module: school_hostel
+#: selection:hostel.type,type:0
+msgid "Boys"
+msgstr "Boys"
+
+#. module: school_hostel
+#: selection:hostel.student,status:0
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: school_hostel
+#: selection:hostel.type,type:0
+msgid "Common"
+msgstr "Common"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_create_uid
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_create_uid
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_create_date
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_create_date
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_student_admission_date
+msgid "Date of admission in hostel"
+msgstr "Date of admission in hostel"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_student_acutal_discharge_date
+msgid "Date on which student\n"
+"                                            discharge"
+msgstr "Date on which student\n"
+"                                            discharge"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_student_discharge_date
+msgid "Date on which student discharge"
+msgstr "Date on which student discharge"
+
+#. module: school_hostel
+#: selection:hostel.student,status:0
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_form
+msgid "Discharge"
+msgstr "Discharge"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_discharge_date
+msgid "Discharge Date"
+msgstr "Discharge Date"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_display_name
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_display_name
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: school_hostel
+#: selection:hostel.student,status:0
+msgid "Done"
+msgstr "Done"
+
+#. module: school_hostel
+#: selection:hostel.student,status:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_duration
+msgid "Duration"
+msgstr "Duración"
+
+#. module: school_hostel
+#: code:addons/school_hostel/models/hostel.py:136
+#, python-format
+msgid "Duration should be greater than 0!"
+msgstr "Duration should be greater than 0!"
+
+#. module: school_hostel
+#: sql_constraint:hostel.student:0
+msgid "Error ! Discharge Date cannot be setbefore Admission Date!"
+msgstr "Error ! Discharge Date cannot be setbefore Admission Date!"
+
+#. module: school_hostel
+#: sql_constraint:hostel.room:0
+msgid "Error ! Floor per HOSTEL should be less than 10."
+msgstr "Error ! Floor per HOSTEL should be less than 10."
+
+#. module: school_hostel
+#: sql_constraint:hostel.room:0
+msgid "Error ! Student per room should be less than 10."
+msgstr "Error ! Student per room should be less than 10."
+
+#. module: school_hostel
+#: model:ir.actions.report,name:school_hostel.report_hostel_fee_reciept_qweb
+msgid "Fee Reciept"
+msgstr "Fee Reciept"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_floor_no
+msgid "Floor No."
+msgstr "Floor No."
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_room_floor_no
+msgid "Floor Number"
+msgstr "Floor Number"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_stud_gender
+msgid "Gender"
+msgstr "Sexo"
+
+#. module: school_hostel
+#: selection:hostel.type,type:0
+msgid "Girls"
+msgstr "Girls"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_guest_sofa
+msgid "Guest sofa-bed"
+msgstr "Guest sofa-bed"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_name
+msgid "HOSTEL"
+msgstr "HOSTEL"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.hostel_fee_reciept1
+msgid "HOSTEL Fee Receipt"
+msgstr "HOSTEL Fee Receipt"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_hostel_id
+msgid "HOSTEL ID"
+msgstr "HOSTEL ID"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_name
+msgid "HOSTEL Name"
+msgstr "HOSTEL Name"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_type
+msgid "HOSTEL Type"
+msgstr "HOSTEL Type"
+
+#. module: school_hostel
+#: model:ir.actions.act_window,name:school_hostel.action_hostel_type
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_hostel_info_id
+#: model:ir.ui.menu,name:school_hostel.hostel_main_menu
+#: model:ir.ui.menu,name:school_hostel.hostel_type_menu
+#: model:ir.ui.menu,name:school_hostel.menu_hostel
+#: model:ir.ui.view,arch_db:school_hostel.school_hostel_partner_form_inheited
+#: model:ir.ui.view,arch_db:school_hostel.view_student_student_form2
+msgid "Hostel"
+msgstr "Hostel"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_account_invoice_hostel_ref
+msgid "Hostel Fee Reference"
+msgstr "Hostel Fee Reference"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_account_invoice_hostel_ref
+msgid "Hostel Fees Reference"
+msgstr "Hostel Fees Reference"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_terminate_reason_hostel_info
+msgid "Hostel Info"
+msgstr "Hostel Info"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_form
+msgid "Hostel Information"
+msgstr "Hostel Information"
+
+#. module: school_hostel
+#: model:ir.module.category,name:school_hostel.module_category_school
+msgid "Hostel Management"
+msgstr "Hostel Management"
+
+#. module: school_hostel
+#: model:res.groups,name:school_hostel.group_hostel_manager
+msgid "Hostel Manager"
+msgstr "Hostel Manager"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_type_form
+msgid "Hostel Name"
+msgstr "Hostel Name"
+
+#. module: school_hostel
+#: model:ir.actions.act_window,name:school_hostel.menu_hostel_rector_action
+#: model:ir.model.fields,field_description:school_hostel.field_res_partner_is_hostel_rector
+#: model:ir.model.fields,field_description:school_hostel.field_res_users_is_hostel_rector
+#: model:ir.model.fields,field_description:school_hostel.field_student_student_is_hostel_rector
+#: model:ir.ui.menu,name:school_hostel.hostel_rector_menu
+msgid "Hostel Rector"
+msgstr "Hostel Rector"
+
+#. module: school_hostel
+#: model:ir.actions.act_window,name:school_hostel.action_hostel_room
+#: model:ir.ui.menu,name:school_hostel.hostel_room_menu
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_room_form
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_room_tree
+msgid "Hostel Room"
+msgstr "Hostel Room"
+
+#. module: school_hostel
+#: model:ir.actions.act_window,name:school_hostel.action_hostel_student
+#: model:ir.actions.act_window,name:school_hostel.action_hostel_student_button
+#: model:ir.model.fields,field_description:school_hostel.field_account_invoice_hostel_student_id
+#: model:ir.ui.menu,name:school_hostel.hostel_student_menu
+msgid "Hostel Student"
+msgstr "Hostel Student"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_type_form
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_type_tree
+msgid "Hostel Type"
+msgstr "Hostel Type"
+
+#. module: school_hostel
+#: model:res.groups,name:school_hostel.group_hostel_user
+msgid "Hostel User"
+msgstr "Hostel User"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_search
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_tree
+msgid "Hostel student"
+msgstr "Hostel student"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_id
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_id
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_internet
+msgid "Internet Access"
+msgstr "Internet Access"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_account_invoice
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_form
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room___last_update
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student___last_update
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_write_uid
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_write_uid
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_write_date
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_write_date
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_microwave
+msgid "Microwave"
+msgstr "Microwave"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_type_name
+msgid "Name of Hostel"
+msgstr "Name of Hostel"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_room_name
+msgid "Name of hostel"
+msgstr "Name of hostel"
+
+#. module: school_hostel
+#: code:addons/school_hostel/models/hostel.py:182
+#: code:addons/school_hostel/models/hostel.py:248
+#, python-format
+msgid "New"
+msgstr "New"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_compute_inv
+msgid "Number of invoice"
+msgstr "Number of invoice"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_other_info
+msgid "Other Information"
+msgstr "Other Information"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_paid_amount
+msgid "Paid Amount"
+msgstr "Paid Amount"
+
+#. module: school_hostel
+#: code:addons/school_hostel/models/hostel.py:354
+#, python-format
+msgid "Pay Hostel Fees"
+msgstr "Pay Hostel Fees"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_form
+msgid "Payment"
+msgstr "Pagos"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_account_payment
+msgid "Payments"
+msgstr "Pagos"
+
+#. module: school_hostel
+#: selection:hostel.student,status:0
+msgid "Pending"
+msgstr "Pending"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_form
+msgid "Print Fee Slip"
+msgstr "Print Fee Slip"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_private_bathroom
+msgid "Private Bathroom"
+msgstr "Private Bathroom"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_rector
+msgid "Rector"
+msgstr "Rector"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_refrigerator
+msgid "Refrigerator"
+msgstr "Refrigerator"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_remaining_amount
+msgid "Remaining Amount"
+msgstr "Remaining Amount"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_rent_pay
+msgid "Rent"
+msgstr "Rent"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_rent_amount
+msgid "Rent Amount Per Month"
+msgstr "Rent Amount Per Month"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_student_room_rent
+msgid "Rent of room"
+msgstr "Rent of room"
+
+#. module: school_hostel
+#: selection:hostel.student,status:0
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_form
+msgid "Reservation"
+msgstr "Reservation"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_room_id
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_room_ids
+msgid "Room"
+msgstr "Room"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_type_form
+msgid "Room Detail"
+msgstr "Room Detail"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_room_form
+msgid "Room Facilities"
+msgstr "Room Facilities"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_room_form
+msgid "Room Information"
+msgstr "Room Information"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_room_no
+msgid "Room No."
+msgstr "Room No."
+
+#. module: school_hostel
+#: sql_constraint:hostel.room:0
+msgid "Room number must be unique!"
+msgstr "Room number must be unique!"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_school_id
+msgid "School"
+msgstr "School"
+
+#. module: school_hostel
+#: code:addons/school_hostel/models/hostel.py:288
+#, python-format
+msgid "Selected student is already\n"
+"            registered!"
+msgstr "Selected student is already\n"
+"            registered!"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_status
+msgid "Status"
+msgstr "Estado"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_student_id
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_student_search
+msgid "Student"
+msgstr "Student"
+
+#. module: school_hostel
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_type_form
+msgid "Student Details"
+msgstr "Student Details"
+
+#. module: school_hostel
+#: model:ir.actions.server,name:school_hostel.ir_cron_student_hostel_schedule_ir_actions_server
+#: model:ir.cron,cron_name:school_hostel.ir_cron_student_hostel_schedule
+#: model:ir.cron,name:school_hostel.ir_cron_student_hostel_schedule
+msgid "Student Hostel"
+msgstr "Student Hostel"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_student_student
+msgid "Student Information"
+msgstr "Student Information"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_student_per_room
+msgid "Student Per Room"
+msgstr "Student Per Room"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_student_ids
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_type_student_ids
+#: model:ir.ui.view,arch_db:school_hostel.view_hostel_room_form
+msgid "Students"
+msgstr "Students"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_room_student_per_room
+msgid "Students allocated per room"
+msgstr "Students allocated per room"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_telephone
+msgid "Telephone access"
+msgstr "Telephone access"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_room_tv
+msgid "Television"
+msgstr "Television"
+
+#. module: school_hostel
+#: code:addons/school_hostel/models/hostel.py:162
+#, python-format
+msgid "There is no avalilability in the\n"
+"                room!"
+msgstr "There is no avalilability in the\n"
+"                room!"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_room_rent
+msgid "Total Room Rent"
+msgstr "Total Room Rent"
+
+#. module: school_hostel
+#: model:ir.model.fields,field_description:school_hostel.field_hostel_student_hostel_types
+msgid "Type"
+msgstr "Tipo"
+
+#. module: school_hostel
+#: model:ir.model.fields,help:school_hostel.field_hostel_type_type
+msgid "Type of Hostel"
+msgstr "Type of Hostel"
+
+#. module: school_hostel
+#: code:addons/school_hostel/models/hostel.py:169
+#, python-format
+msgid "You can delete record in\n"
+"                unconfirm state only!"
+msgstr "You can delete record in\n"
+"                unconfirm state only!"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_hostel_room
+msgid "hostel.room"
+msgstr "hostel.room"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_hostel_student
+msgid "hostel.student"
+msgstr "hostel.student"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_hostel_type
+msgid "hostel.type"
+msgstr "hostel.type"
+
+#. module: school_hostel
+#: model:ir.model,name:school_hostel.model_terminate_reason
+msgid "terminate.reason"
+msgstr "terminate.reason"
+

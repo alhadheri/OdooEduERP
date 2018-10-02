@@ -1,0 +1,1317 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* exam
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 12:45+0000\n"
+"PO-Revision-Date: 2018-10-02 12:45+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:62
+#, python-format
+msgid " Please Enter Exam Timetable!"
+msgstr " Please Enter Exam Timetable!"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:153
+#, python-format
+msgid "%s Subject Exam Already\n"
+"                        Taken"
+msgstr "%s Subject Exam Already\n"
+"                        Taken"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:160
+#, python-format
+msgid "%s is occupied by '%s' for %s\n"
+"                    class!"
+msgstr "%s is occupied by '%s' for %s\n"
+"                    class!"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_batch
+msgid "<b>Academic Year</b>"
+msgstr "<b>Academic Year</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Division</b>"
+msgstr "<b>Division</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Exam</b>"
+msgstr "<b>Exam</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Maximum marks</b>"
+msgstr "<b>Maximum marks</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Medium</b>"
+msgstr "<b>Medium</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Minimum Marks</b>"
+msgstr "<b>Minimum Marks</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_batch
+msgid "<b>Number of Students Failed</b>"
+msgstr "<b>Number of Students Failed</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_batch
+msgid "<b>Number of students Appeared</b>"
+msgstr "<b>Number of students Appeared</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_batch
+msgid "<b>Number of students Passed</b>"
+msgstr "<b>Number of students Passed</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Obtain Mark</b>"
+msgstr "<b>Obtain Mark</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_report
+msgid "<b>Obtain Marks</b>"
+msgstr "<b>Obtain Marks</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_batch
+msgid "<b>Percentage of Students Passed</b>"
+msgstr "<b>Percentage of Students Passed</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Percentage</b>"
+msgstr "<b>Percentage</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Result</b>"
+msgstr "<b>Result</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_report
+msgid "<b>Revaluation Marks</b>"
+msgstr "<b>Revaluation Marks</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Roll No</b>"
+msgstr "<b>Roll No</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.exam_result_batch
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Standard</b>"
+msgstr "<b>Standard</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Student Name</b>"
+msgstr "<b>Student Name</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Subject Code</b>"
+msgstr "<b>Subject Code</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.additional_exam_result_report
+#: model:ir.ui.view,arch_db:exam.exam_result_report
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Subject Name</b>"
+msgstr "<b>Subject Name</b>"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "<b>Total</b>"
+msgstr "<b>Total</b>"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_year
+#: model:ir.model.fields,field_description:exam.field_exam_exam_academic_year
+msgid "Academic Year"
+msgstr "Academic Year"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_active
+#: model:ir.model.fields,field_description:exam.field_exam_exam_active
+#: model:ir.model.fields,field_description:exam.field_exam_result_active
+msgid "Active"
+msgstr "Activo"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.action_additional_exam_form
+#: model:ir.ui.menu,name:exam.menu_additional_exam_sub_form
+msgid "Additional Exam"
+msgstr "Additional Exam"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_tree
+msgid "Additional Exam Information"
+msgstr "Additional Exam Information"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_calendar
+msgid "Additional Exam Information Calendar"
+msgstr "Additional Exam Information Calendar"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_name
+msgid "Additional Exam Name"
+msgstr "Additional Exam Name"
+
+#. module: exam
+#: model:ir.actions.report,name:exam.additional_exam_result_id_qweb
+msgid "Additional Exam Result"
+msgstr "Additional Exam Result"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.action_additional_exam_result_form01
+#: model:ir.ui.menu,name:exam.menu_additional_exam_result
+msgid "Additional Exam Results"
+msgstr "Additional Exam Results"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_a_exam_id
+msgid "Additional Examination"
+msgstr "Additional Examination"
+
+#. module: exam
+#: model:ir.ui.menu,name:exam.additional_exam
+msgid "Additional Exams"
+msgstr "Additional Exams"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.wizard_batch_report
+msgid "Batch Report"
+msgstr "Batch Report"
+
+#. module: exam
+#: model:ir.actions.report,name:exam.batch_result_qweb
+#: model:ir.ui.view,arch_db:exam.exam_result_batch
+msgid "BatchWise Result"
+msgstr "BatchWise Result"
+
+#. module: exam
+#: model:ir.ui.menu,name:exam.menu_exam_batch_result
+msgid "Batchwise Exam Results"
+msgstr "Batchwise Exam Results"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.wizard_action_batchwise_exam_result_form
+msgid "Batchwise Result"
+msgstr "Batchwise Result"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "By Date"
+msgstr "By Date"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additioanal_result_search
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_search
+#: model:ir.ui.view,arch_db:exam.view_exam_result_search
+msgid "By Name"
+msgstr "By Name"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "By State"
+msgstr "By State"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_search
+msgid "By Subject Name"
+msgstr "By Subject Name"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+#: model:ir.ui.view,arch_db:exam.wizard_batch_report
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: exam
+#: selection:exam.exam,state:0
+msgid "Cancelled"
+msgstr "Cancelled"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Change Color"
+msgstr "Change Color"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_result_form
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Class"
+msgstr "Class"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_exam_exam_code
+msgid "Code of exam"
+msgstr "Code of exam"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_color
+msgid "Color"
+msgstr "Color"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_color_name
+msgid "Color index of creator"
+msgstr "Color index of creator"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:361
+#, python-format
+msgid "Configure Maximum marks greater than\n"
+"            minimum marks!"
+msgstr "Configure Maximum marks greater than\n"
+"            minimum marks!"
+
+#. module: exam
+#: selection:exam.result,state:0
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_create_date
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Created Date"
+msgstr "Created Date"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_create_uid
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_create_uid
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_create_uid
+#: model:ir.model.fields,field_description:exam.field_exam_exam_create_uid
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_create_uid
+#: model:ir.model.fields,field_description:exam.field_exam_result_create_uid
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_create_uid
+#: model:ir.model.fields,field_description:exam.field_exam_subject_create_uid
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz_create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_create_date
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_create_date
+#: model:ir.model.fields,field_description:exam.field_exam_exam_create_date
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_create_date
+#: model:ir.model.fields,field_description:exam.field_exam_result_create_date
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_create_date
+#: model:ir.model.fields,field_description:exam.field_exam_subject_create_date
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz_create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Date"
+msgstr "Fecha"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_display_name
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_display_name
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_display_name
+#: model:ir.model.fields,field_description:exam.field_exam_exam_display_name
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_display_name
+#: model:ir.model.fields,field_description:exam.field_exam_result_display_name
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_display_name
+#: model:ir.model.fields,field_description:exam.field_exam_subject_display_name
+#: model:ir.model.fields,field_description:exam.field_report_exam_exam_result_batch_display_name
+#: model:ir.model.fields,field_description:exam.field_report_exam_exam_result_report_display_name
+#: model:ir.model.fields,field_description:exam.field_report_exam_result_information_report_display_name
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz_display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: exam
+#: selection:exam.result,state:0
+msgid "Done"
+msgstr "Done"
+
+#. module: exam
+#: selection:exam.exam,state:0
+#: selection:exam.result,state:0
+msgid "Draft"
+msgstr "Draft"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Edit"
+msgstr "Editar"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_exam_id
+#: model:ir.model.fields,field_description:exam.field_time_table_exam_id
+#: model:ir.ui.menu,name:exam.menu_exam
+msgid "Exam"
+msgstr "Exam"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_addtional_exam_code
+#: model:ir.model.fields,field_description:exam.field_exam_exam_exam_code
+#: model:ir.model.fields,help:exam.field_additional_exam_addtional_exam_code
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Exam Code"
+msgstr "Exam Code"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_create_date
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Exam Created Date"
+msgstr "Exam Created Date"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_exam_date
+#: model:ir.model.fields,field_description:exam.field_time_table_line_exm_date
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+msgid "Exam Date"
+msgstr "Exam Date"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Exam Detail"
+msgstr "Exam Detail"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Exam Details"
+msgstr "Exam Details"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_exam_end_date
+msgid "Exam End date"
+msgstr "Exam End date"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_student_student_exam_results_ids
+msgid "Exam History"
+msgstr "Exam History"
+
+#. module: exam
+#: model:ir.model,name:exam.model_exam_exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_tree
+msgid "Exam Information"
+msgstr "Exam Information"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_calendar
+msgid "Exam Information Calendar"
+msgstr "Exam Information Calendar"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Exam Information Search"
+msgstr "Exam Information Search"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_exam_name
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Exam Name"
+msgstr "Exam Name"
+
+#. module: exam
+#: model:ir.actions.report,name:exam.add_exam_result_id_qweb
+msgid "Exam Result"
+msgstr "Exam Result"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.action_exam_result_form
+#: model:ir.ui.menu,name:exam.menu_exam_result
+msgid "Exam Results"
+msgstr "Exam Results"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_exam_exam_schedule_ids
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_timetable_id
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Exam Schedule"
+msgstr "Exam Schedule"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_exam_start_date
+msgid "Exam Start Date"
+msgstr "Exam Start Date"
+
+#. module: exam
+#: model:ir.model,name:exam.model_exam_grade_line
+#: model:ir.model,name:exam.model_exam_subject
+msgid "Exam Subject Information"
+msgstr "Exam Subject Information"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_result_ids
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz_result_ids
+msgid "Exam Subjects"
+msgstr "Exam Subjects"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.timetable_exam_action
+#: model:ir.ui.menu,name:exam.timetable_exam_regular_menu
+#: model:ir.ui.view,arch_db:exam.extended_exam_time_table_form
+msgid "Exam Timetable"
+msgstr "Exam Timetable"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Exam Update Date"
+msgstr "Exam Update Date"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_write_date
+msgid "Exam Updated Date"
+msgstr "Exam Updated Date"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:174
+#, python-format
+msgid "Exam end date should be\n"
+"                                  greater than start date!"
+msgstr "Exam end date should be\n"
+"                                  greater than start date!"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Exam is Running"
+msgstr "Exam is Running"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Exam is Upcoming"
+msgstr "Exam is Upcoming"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_exam_end_date
+msgid "Exam will end at this date"
+msgstr "Exam will end at this date"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_exam_start_date
+msgid "Exam will start from this date"
+msgstr "Exam will start from this date"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_s_exam_ids
+msgid "Examination"
+msgstr "Examination"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+msgid "Examination Dates"
+msgstr "Examination Dates"
+
+#. module: exam
+#: model:ir.ui.menu,name:exam.menu_exam_sub_form
+msgid "Exams"
+msgstr "Exams"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Finish"
+msgstr "Finish"
+
+#. module: exam
+#: selection:exam.exam,state:0
+msgid "Finished"
+msgstr "Finished"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_message_follower_ids
+msgid "Followers"
+msgstr "Seguidores"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Generate result"
+msgstr "Generate result"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_grade
+#: model:ir.model.fields,field_description:exam.field_exam_result_grade
+#: model:ir.model.fields,field_description:exam.field_exam_subject_grade_line_id
+msgid "Grade"
+msgstr "Grade"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Grade :"
+msgstr "Grade :"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_result_grade
+msgid "Grade Obtained"
+msgstr "Grade Obtained"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_exam_grade_system
+#: model:ir.model.fields,field_description:exam.field_exam_result_grade_system
+msgid "Grade System"
+msgstr "Grade System"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_result_grade_system
+msgid "Grade System selected"
+msgstr "Grade System selected"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.wizard_batch_report
+msgid "Grade wise Results"
+msgstr "Grade wise Results"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additioanal_result_search
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_search
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+#: model:ir.ui.view,arch_db:exam.view_exam_result_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_id
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_id
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_id
+#: model:ir.model.fields,field_description:exam.field_exam_exam_id
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_id
+#: model:ir.model.fields,field_description:exam.field_exam_result_id
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_id
+#: model:ir.model.fields,field_description:exam.field_exam_subject_id
+#: model:ir.model.fields,field_description:exam.field_report_exam_exam_result_batch_id
+#: model:ir.model.fields,field_description:exam.field_report_exam_exam_result_report_id
+#: model:ir.model.fields,field_description:exam.field_report_exam_result_information_report_id
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz_id
+msgid "ID"
+msgstr "ID (identificación)"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:106
+#, python-format
+msgid "Invalid Date Error !\n"
+"                        Either you have selected wrong day\n"
+"                                       for the date or you have selected                                       invalid date!"
+msgstr "Invalid Date Error !\n"
+"                        Either you have selected wrong day\n"
+"                                       for the date or you have selected                                       invalid date!"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:180
+#, python-format
+msgid "Invalid Exam Schedule                            \n"
+"\n"
+"Exam Dates must be in between Start                            date and End date !"
+msgstr "Invalid Exam Schedule                            \n"
+"\n"
+"Exam Dates must be in between Start                            date and End date !"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:534
+#, python-format
+msgid "Kindly add marks                        details of subject \"%s\"!"
+msgstr "Kindly add marks                        details of subject \"%s\"!"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:527
+#, python-format
+msgid "Kindly add maximum                            marks of subject \"%s\"."
+msgstr "Kindly add maximum                            marks of subject \"%s\"."
+
+#. module: exam
+#: code:addons/exam/models/exam.py:530
+#, python-format
+msgid "Kindly add minimum                        marks of subject \"%s\"."
+msgstr "Kindly add minimum                        marks of subject \"%s\"."
+
+#. module: exam
+#: code:addons/exam/models/exam.py:192
+#, python-format
+msgid "Kindly,mark as done %s                    examination results!"
+msgstr "Kindly,mark as done %s                    examination results!"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam___last_update
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result___last_update
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result___last_update
+#: model:ir.model.fields,field_description:exam.field_exam_exam___last_update
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line___last_update
+#: model:ir.model.fields,field_description:exam.field_exam_result___last_update
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line___last_update
+#: model:ir.model.fields,field_description:exam.field_exam_subject___last_update
+#: model:ir.model.fields,field_description:exam.field_report_exam_exam_result_batch___last_update
+#: model:ir.model.fields,field_description:exam.field_report_exam_exam_result_report___last_update
+#: model:ir.model.fields,field_description:exam.field_report_exam_result_information_report___last_update
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz___last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Last Update Date"
+msgstr "Last Update Date"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+msgid "Last Updated Date"
+msgstr "Last Updated Date"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_write_uid
+#: model:ir.model.fields,field_description:exam.field_additional_exam_write_uid
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_write_uid
+#: model:ir.model.fields,field_description:exam.field_exam_exam_write_uid
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_write_uid
+#: model:ir.model.fields,field_description:exam.field_exam_result_write_uid
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_write_uid
+#: model:ir.model.fields,field_description:exam.field_exam_subject_write_uid
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz_write_uid
+msgid "Last Updated by"
+msgstr "Última actualización de"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_write_date
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_write_date
+#: model:ir.model.fields,field_description:exam.field_exam_exam_write_date
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_write_date
+#: model:ir.model.fields,field_description:exam.field_exam_result_write_date
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_write_date
+#: model:ir.model.fields,field_description:exam.field_exam_subject_write_date
+#: model:ir.model.fields,field_description:exam.field_subject_result_wiz_write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Mark as Done"
+msgstr "Marcar como Hecho"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_subject_marks_reeval
+msgid "Marks After Re-evaluation"
+msgstr "Marks After Re-evaluation"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_subject_marks_reeval
+msgid "Marks Obtain after Re-evaluation"
+msgstr "Marks Obtain after Re-evaluation"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_result_obtain_marks
+msgid "Marks obtain in exam"
+msgstr "Marks obtain in exam"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_maximum_marks
+msgid "Maximum Mark"
+msgstr "Maximum Mark"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_subject_maximum_marks
+msgid "Maximum Marks"
+msgstr "Maximum Marks"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_minimum_marks
+msgid "Maximum Marks of Exam"
+msgstr "Maximum Marks of Exam"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_subject_maximum_marks
+msgid "Maximum Marks of subject"
+msgstr "Maximum Marks of subject"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_message_ids
+msgid "Messages"
+msgstr "Mensajes"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_minimum_marks
+msgid "Minimum Mark"
+msgstr "Minimum Mark"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_subject_minimum_marks
+msgid "Minimum Marks"
+msgstr "Minimum Marks"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_maximum_marks
+msgid "Minimum Marks of exam"
+msgstr "Minimum Marks of exam"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_subject_minimum_marks
+msgid "Minimum Marks of subject"
+msgstr "Minimum Marks of subject"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Name"
+msgstr "Nombre"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_name
+#: model:ir.model.fields,help:exam.field_exam_exam_name
+msgid "Name of Exam"
+msgstr "Name of Exam"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_obtain_marks
+#: model:ir.model.fields,field_description:exam.field_exam_subject_obtain_marks
+msgid "Obtain Marks"
+msgstr "Obtain Marks"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_total
+msgid "Obtain Total"
+msgstr "Obtain Total"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:117
+#, python-format
+msgid "PLease Enter Supervisior!\n"
+"                        "
+msgstr "PLease Enter Supervisior!\n"
+"                        "
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_exam_standard_id
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_standard_ids
+msgid "Participant Standards"
+msgstr "Participant Standards"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_percentage
+msgid "Percentage"
+msgstr "Percentage"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Percentage :"
+msgstr "Percentage :"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_result_percentage
+msgid "Percentage Obtained"
+msgstr "Percentage Obtained"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_result_pid
+msgid "Personal IDentification Number"
+msgstr "Personal IDentification Number"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:233
+#, python-format
+msgid "Please Select Standard!"
+msgstr "Please Select Standard!"
+
+#. module: exam
+#: selection:exam.result,state:0
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Re-Evaluation"
+msgstr "Re-Evaluation"
+
+#. module: exam
+#: selection:exam.result,state:0
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Re-Evaluation Confirm"
+msgstr "Re-Evaluation Confirm"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.action_exam_exam_form
+msgid "Regular Exam"
+msgstr "Regular Exam"
+
+#. module: exam
+#: model:ir.ui.menu,name:exam.regular_exams_details
+msgid "Regular Exams"
+msgstr "Regular Exams"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.action_stu_result_form
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_result
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_exam_id
+#: model:ir.model.fields,field_description:exam.field_exam_result_result
+#: model:ir.model.fields,field_description:exam.field_exam_subject_exam_id
+#: model:ir.ui.view,arch_db:exam.view_student_student_form2
+#: model:ir.ui.view,arch_db:exam.view_subject_result_form11
+msgid "Result"
+msgstr "Result"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Result :"
+msgstr "Result :"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:299
+#, python-format
+msgid "Result Info"
+msgstr "Result Info"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_result_form
+msgid "Result Information"
+msgstr "Result Information"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_result_result
+#: model:ir.model.fields,help:exam.field_exam_result_result
+msgid "Result Obtained"
+msgstr "Result Obtained"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_subject_result_form11
+msgid "Result Report"
+msgstr "Result Report"
+
+#. module: exam
+#: model:ir.actions.report,name:exam.result_info_id_qweb
+msgid "Result Transcript"
+msgstr "Result Transcript"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_result_form
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_result_tree
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+#: model:ir.ui.view,arch_db:exam.view_exam_result_tree
+msgid "Results"
+msgstr "Results"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_roll_no_id
+#: model:ir.model.fields,field_description:exam.field_exam_result_roll_no_id
+msgid "Roll No"
+msgstr "Roll No"
+
+#. module: exam
+#: selection:exam.exam,state:0
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Running"
+msgstr "Running"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additioanal_result_search
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_search
+#: model:ir.ui.view,arch_db:exam.view_exam_result_search
+msgid "Search"
+msgstr "Búsqueda"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_batchwise_result_year
+#: model:ir.model.fields,help:exam.field_exam_exam_academic_year
+msgid "Select Academic Year"
+msgstr "Select Academic Year"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Select Academic Year.."
+msgstr "Select Academic Year.."
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_result_a_exam_id
+msgid "Select Additional Exam"
+msgstr "Select Additional Exam"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+msgid "Select Class"
+msgstr "Select Class"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_result_s_exam_ids
+msgid "Select Exam"
+msgstr "Select Exam"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Select Examination"
+msgstr "Select Examination"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_exam_grade_system
+msgid "Select Grade System"
+msgstr "Select Grade System"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_exam_standard_id
+#: model:ir.model.fields,help:exam.field_exam_result_standard_id
+#: model:ir.model.fields,help:exam.field_exam_schedule_line_standard_id
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Select Standard"
+msgstr "Select Standard"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_additional_exam_result_student_id
+#: model:ir.model.fields,help:exam.field_exam_result_student_id
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Select Student"
+msgstr "Select Student"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_form
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Select Subject"
+msgstr "Select Subject"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.extended_exam_time_table_form
+msgid "Select Time Table Type"
+msgstr "Select Time Table Type"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Set to Draft"
+msgstr "Cambiar a borrador"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_standard_id
+#: model:ir.model.fields,field_description:exam.field_additional_exam_standard_id
+#: model:ir.model.fields,field_description:exam.field_exam_batchwise_result_standard_id
+#: model:ir.model.fields,field_description:exam.field_exam_grade_line_standard_id
+#: model:ir.model.fields,field_description:exam.field_exam_result_standard_id
+#: model:ir.model.fields,field_description:exam.field_exam_schedule_line_standard_id
+#: model:ir.ui.view,arch_db:exam.view_additioanal_result_search
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_search
+#: model:ir.ui.view,arch_db:exam.view_exam_result_search
+msgid "Standard"
+msgstr "Standard"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Standard :"
+msgstr "Standard :"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+msgid "Start"
+msgstr "Start"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_form
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:124
+#, python-format
+msgid "Start time should be less than end\n"
+"                time!"
+msgstr "Start time should be less than end\n"
+"                time!"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_exam_state
+#: model:ir.model.fields,field_description:exam.field_exam_result_state
+#: model:ir.model.fields,field_description:exam.field_exam_subject_state
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "State"
+msgstr "Estado"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additioanal_result_search
+#: model:ir.ui.view,arch_db:exam.view_exam_result_search
+msgid "Student"
+msgstr "Student"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+msgid "Student Details"
+msgstr "Student Details"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_exam_result_pid
+msgid "Student ID"
+msgstr "Student ID"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Student ID :"
+msgstr "Student ID :"
+
+#. module: exam
+#: model:ir.model,name:exam.model_student_student
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_result_form
+msgid "Student Information"
+msgstr "Student Information"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_result_student_id
+#: model:ir.model.fields,field_description:exam.field_exam_result_student_id
+msgid "Student Name"
+msgstr "Student Name"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Student Name :"
+msgstr "Student Name :"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_additional_exam_search
+msgid "Subject"
+msgstr "Asunto"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_subject_id
+#: model:ir.model.fields,field_description:exam.field_exam_subject_subject_id
+msgid "Subject Name"
+msgstr "Subject Name"
+
+#. module: exam
+#: model:ir.actions.act_window,name:exam.action_subject_result_wiz
+msgid "Subject Result"
+msgstr "Subject Result"
+
+#. module: exam
+#: model:ir.model,name:exam.model_subject_result_wiz
+msgid "Subject Wise Result"
+msgstr "Subject Wise Result"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_result_form
+#: model:ir.ui.view,arch_db:exam.view_subject_result_form11
+msgid "Subjects"
+msgstr "Subjects"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.extended_exam_time_table_form
+msgid "Supervisor"
+msgstr "Supervisor"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:605
+#, python-format
+msgid "The minimum marks\n"
+"            should not extend maximum marks!."
+msgstr "The minimum marks\n"
+"            should not extend maximum marks!."
+
+#. module: exam
+#: code:addons/exam/models/exam.py:602
+#, python-format
+msgid "The obtained marks\n"
+"            should not extend maximum marks!."
+msgstr "The obtained marks\n"
+"            should not extend maximum marks!."
+
+#. module: exam
+#: code:addons/exam/models/exam.py:690
+#, python-format
+msgid "The obtained marks should not extend\n"
+"                                    maximum marks!."
+msgstr "The obtained marks should not extend\n"
+"                                    maximum marks!."
+
+#. module: exam
+#: code:addons/exam/models/exam.py:608
+#, python-format
+msgid "The revaluation marks\n"
+"            should not extend maximum marks!."
+msgstr "The revaluation marks\n"
+"            should not extend maximum marks!."
+
+#. module: exam
+#: code:addons/exam/models/exam.py:138
+#, python-format
+msgid "The room is occupied!."
+msgstr "The room is occupied!."
+
+#. module: exam
+#: code:addons/exam/models/exam.py:148
+#, python-format
+msgid "There is already Exam at\n"
+"                        same Date and Time!"
+msgstr "There is already Exam at\n"
+"                        same Date and Time!"
+
+#. module: exam
+#: model:ir.model,name:exam.model_time_table
+msgid "Time Table"
+msgstr "Time Table"
+
+#. module: exam
+#: model:ir.model,name:exam.model_time_table_line
+msgid "Time Table Line"
+msgstr "Time Table Line"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_time_table_exam_timetable_line_ids
+msgid "TimeTable"
+msgstr "TimeTable"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.exam_result_kanban_view
+msgid "Total :"
+msgstr "Total :"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_result_total
+msgid "Total of marks"
+msgstr "Total of marks"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.result_information_report
+msgid "Transcript Of Academic Record"
+msgstr "Transcript Of Academic Record"
+
+#. module: exam
+#: model:ir.ui.view,arch_db:exam.view_exam_exam_search
+msgid "Upcoming"
+msgstr "Upcoming"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_write_date
+msgid "Updated date"
+msgstr "Updated date"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_additional_exam_weightage
+msgid "WEIGHTAGE"
+msgstr "WEIGHTAGE"
+
+#. module: exam
+#: model:ir.model.fields,field_description:exam.field_time_table_line_day_of_week
+msgid "Week Day"
+msgstr "Week Day"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:465
+#, python-format
+msgid "You can delete record in unconfirm\n"
+"                state only!."
+msgstr "You can delete record in unconfirm\n"
+"                state only!."
+
+#. module: exam
+#: code:addons/exam/report/result_info.py:64
+#, python-format
+msgid "You can not print report for student\n"
+"                in unconfirm state or when data is not found !"
+msgstr "You can not print report for student\n"
+"                in unconfirm state or when data is not found !"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:45
+#, python-format
+msgid "You cannot delete schedule of\n"
+"                    exam which is in running!"
+msgstr "You cannot delete schedule of\n"
+"                    exam which is in running!"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:73
+#, python-format
+msgid "You cannot set exam at same\n"
+"                                            time %s  at same day %s for\n"
+"                                            teacher %s!"
+msgstr "You cannot set exam at same\n"
+"                                            time %s  at same day %s for\n"
+"                                            teacher %s!"
+
+#. module: exam
+#: code:addons/exam/models/exam.py:237
+#, python-format
+msgid "You must add one Exam Schedule!"
+msgstr "You must add one Exam Schedule!"
+
+#. module: exam
+#: model:ir.model,name:exam.model_additional_exam
+msgid "additional Exam Information"
+msgstr "additional Exam Information"
+
+#. module: exam
+#: model:ir.model,name:exam.model_exam_result
+msgid "exam result Information"
+msgstr "exam result Information"
+
+#. module: exam
+#: model:ir.model,name:exam.model_exam_batchwise_result
+msgid "exam.batchwise.result"
+msgstr "exam.batchwise.result"
+
+#. module: exam
+#: model:ir.model,name:exam.model_exam_schedule_line
+msgid "exam.schedule.line"
+msgstr "exam.schedule.line"
+
+#. module: exam
+#: model:ir.model,name:exam.model_move_standards
+msgid "move.standards"
+msgstr "move.standards"
+
+#. module: exam
+#: model:ir.model,name:exam.model_report_exam_exam_result_batch
+msgid "report.exam.exam_result_batch"
+msgstr "report.exam.exam_result_batch"
+
+#. module: exam
+#: model:ir.model,name:exam.model_report_exam_exam_result_report
+msgid "report.exam.exam_result_report"
+msgstr "report.exam.exam_result_report"
+
+#. module: exam
+#: model:ir.model,name:exam.model_report_exam_result_information_report
+msgid "report.exam.result_information_report"
+msgstr "report.exam.result_information_report"
+
+#. module: exam
+#: model:ir.model.fields,help:exam.field_exam_batchwise_result_standard_id
+msgid "select standard"
+msgstr "select standard"
+
+#. module: exam
+#: model:ir.model,name:exam.model_additional_exam_result
+msgid "subject result Information"
+msgstr "subject result Information"
+
+#. module: exam
+#: model:ir.model,name:exam.model_terminate_reason
+msgid "terminate.reason"
+msgstr "terminate.reason"
+
